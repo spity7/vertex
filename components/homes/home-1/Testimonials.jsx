@@ -53,12 +53,12 @@ export default function Testimonials() {
                 <div className="section-title">
                   <h6 className="wow fadeInUp">
                     <i className="fa-regular fa-arrow-left-long" />
-                    testimonials
+                    Vertex
                     <i className="fa-regular fa-arrow-right-long" />
                   </h6>
                   <h2 className="text-white splt-txt wow">
-                    <AnimatedText text="What Client’s Say" /> <br />
-                    <AnimatedText text="About Us!" />
+                    <AnimatedText text="Who We Are" /> <br />
+                    {/* <AnimatedText text="About Us!" /> */}
                   </h2>
                 </div>
                 <Swiper

@@ -4,64 +4,72 @@ export const serviceItems = [
     imgSrc: "/assets/img/service/01.jpg",
     iconSrc: "/assets/img/icon/01.svg",
     number: "01",
-    title: "Building Construction",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Electrical & Mechanical Design & Consultancy",
+    description:
+      "End-to-end Design and consulting services for all Electrical and Mechanical systems.",
   },
   {
     id: 2,
     imgSrc: "/assets/img/service/02.jpg",
     iconSrc: "/assets/img/icon/02.svg",
     number: "02",
-    title: "Architecture Design",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Electrical & Mechanical Execution",
+    description:
+      "Reliable implementation of all electrical and mechanical works, from installation to commissioning.",
   },
   {
     id: 3,
     imgSrc: "/assets/img/service/03.jpg",
     iconSrc: "/assets/img/icon/03.svg",
     number: "03",
-    title: "Building Renovation",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Panel Boards",
+    description:
+      "Design, fabrication, and installation of high-quality electrical panels, including Distribution boards, Control Panels and MCCs built to international standards.",
   },
   {
     id: 4,
     imgSrc: "/assets/img/service/04.jpg",
     iconSrc: "/assets/img/icon/04.svg",
     number: "04",
-    title: "Quality Materials",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Automation Solutions",
+    description:
+      "Smart automation systems, including PLC controls and industrial process optimization.",
   },
   {
     id: 5,
     imgSrc: "/assets/img/service/01.jpg",
     iconSrc: "/assets/img/icon/01.svg",
-    number: "01",
-    title: "Building Construction",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    number: "05",
+    title: "Low Current Systems",
+    description:
+      "Design, supply and installation of low curremt systems, including CCTV, Access control, Fire alarm, Evacuation, BMS, ensuring safety and seamless integration.",
   },
   {
     id: 6,
     imgSrc: "/assets/img/service/02.jpg",
     iconSrc: "/assets/img/icon/02.svg",
-    number: "02",
-    title: "Architecture Design",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    number: "06",
+    title: "Solar Systems",
+    description:
+      "Design, supply and installation of solar power systems for residential, commercial and industrial applications.",
   },
   {
     id: 7,
     imgSrc: "/assets/img/service/03.jpg",
     iconSrc: "/assets/img/icon/03.svg",
-    number: "03",
-    title: "Building Renovation",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    number: "07",
+    title: "HVAC Systems",
+    description:
+      "Complete HVAC services, including system design, supply and installation ensuring energy-efficient climate control and air quality.",
   },
   {
     id: 8,
     imgSrc: "/assets/img/service/04.jpg",
     iconSrc: "/assets/img/icon/04.svg",
-    number: "04",
-    title: "Quality Materials",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    number: "08",
+    title: "Plumbing and Drainage Systems",
+    description:
+      "Full service plumbing and drainage solutions, including design and installation.",
   },
 ];
 

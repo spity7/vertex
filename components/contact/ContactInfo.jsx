@@ -32,9 +32,9 @@ export default function ContactInfo() {
               <div className="content">
                 <h3>Our Address</h3>
                 <p>
-                  2715 Ash Dr. San Jose,
-                  <br />
-                  South Dakota 83475
+                  Tyre, Lebanon
+                  {/* <br />
+                  South Dakota 83475 */}
                 </p>
               </div>
             </div>
@@ -55,14 +55,13 @@ export default function ContactInfo() {
               <div className="content">
                 <h3>Email Address</h3>
                 <p>
-                  Mobile :<a href="tel:984756123695">9847 5612 3695</a> <br />
-                  Email :
-                  <a href="mailto:example@gmail.com">example@gmail.com</a>
+                  Mobile : <a href="tel:+961 70063194">+961 70063194</a> <br />
+                  Email : <a href="mailto:example@gmail.com">info@vertex.com</a>
                 </p>
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             className="col-xxl-4 col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay=".6s"
           >
@@ -83,7 +82,7 @@ export default function ContactInfo() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

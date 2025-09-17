@@ -119,10 +119,8 @@ export default function Contact() {
                   className="text-white mt-3 mt-md-0 wow fadeInUp"
                   data-wow-delay=".5s"
                 >
-                  It is a long established fact that a reader will be distracted
-                  the readable content of a page when looking at layout the
-                  point of using lorem the is Ipsum less normal distribution of
-                  letters.
+                  Partner with Vertex for professionalism, reliability, and
+                  engineering excellence.
                 </p>
                 <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                   <div className="icon">
@@ -131,7 +129,7 @@ export default function Contact() {
                   <div className="content">
                     <span>call emergency</span>
                     <h4>
-                      <a href="tel:+88012365499">+88 0123 654 99</a>
+                      <a href="tel:+961 70063194">+961 70063194</a>
                     </h4>
                   </div>
                 </div>

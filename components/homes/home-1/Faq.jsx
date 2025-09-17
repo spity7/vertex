@@ -28,12 +28,12 @@ export default function Faq() {
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-                  It is a long established fact that a reader will be distracted
-                  the readable content of a page when looking at layout the
-                  point of using lorem the is Ipsum less normal distribution of
-                  letters.
+                  At Vertex, we know you may have questions about our services,
+                  expertise, and approach. To help you better understand what we
+                  do and how we work, we’ve compiled some of the most frequently
+                  asked questions from our clients.
                 </p>
-                <div className="icon-items wow fadeInUp" data-wow-delay=".2s">
+                {/* <div className="icon-items wow fadeInUp" data-wow-delay=".2s">
                   <div className="icon">
                     <i className="fa-regular fa-check" />
                   </div>
@@ -56,7 +56,7 @@ export default function Faq() {
                       distracted the readable content of a page when
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6">

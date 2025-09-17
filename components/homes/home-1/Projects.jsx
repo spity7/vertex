@@ -41,9 +41,13 @@ export default function Projects() {
               >
                 <div className="project-content">
                   <h3>
-                    <Link href={`/project-details/${elm.id}`}>{elm.title}</Link>
+                    {/* <Link href={`/project-details/${elm.id}`}>{elm.title}</Link> */}
+                    <Link href={`/`}>{elm.title}</Link>
                   </h3>
-                  <Link href={`/project-details/${elm.id}`} className="icon">
+                  {/* <Link href={`/project-details/${elm.id}`} className="icon">
+                    <i className="fa-solid fa-arrow-right" />
+                  </Link> */}
+                  <Link href={`/`} className="icon">
                     <i className="fa-solid fa-arrow-right" />
                   </Link>
                 </div>

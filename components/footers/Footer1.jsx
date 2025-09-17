@@ -23,9 +23,9 @@ export default function Footer1() {
             data-wow-delay=".2s"
           >
             <Image
-              src="/assets/img/logo/black-logo.svg"
-              width={149}
-              height={64}
+              src="/assets/img/logo/vertex rapid.png"
+              width={140}
+              height={93}
               alt="img"
             />
           </Link>
@@ -35,7 +35,7 @@ export default function Footer1() {
             </div>
             <div className="content">
               <p>Office location</p>
-              <h3>4648 Rocky, New York</h3>
+              <h3>Tyre, Lebanon</h3>
             </div>
           </div>
           <div className="contact-info-items wow fadeInUp" data-wow-delay=".6s">
@@ -45,7 +45,7 @@ export default function Footer1() {
             <div className="content">
               <p>send email</p>
               <h3>
-                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                <a href="mailto:example@gmail.com">info@vertex.com</a>
               </h3>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Footer1() {
             <div className="content">
               <p>call emergency</p>
               <h3>
-                <a href="tel:+88012365499">+88 0123 654 99</a>
+                <a href="tel:+961 70063194">+961 70063194</a>
               </h3>
             </div>
           </div>
@@ -69,13 +69,14 @@ export default function Footer1() {
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>About Company</h5>
+                  <h5>About Vertex</h5>
                 </div>
                 <div className="footer-content">
                   <p>
-                    Nullam interdum libero vitae pretium aliquam <br />
-                    donec nibh purus laoreet in ullamcorper vel <br />
-                    malesuada sit amet enim.
+                    Vertex, established in 2020 and based in Tyre, Lebanon, is a
+                    leading electro-mechanical engineering company specializing
+                    in comprehensive design execution and consultancy services
+                    in both electrical and mechanical fields.
                   </p>
                   <div className="social-icon d-flex align-items-center">
                     {socialLinks.map((elm, i) => (
@@ -205,7 +206,7 @@ export default function Footer1() {
         </div>
         <div className="footer-bottom">
           <p>
-            © All Copyright 2024 by <Link href={`/`}>Xbuild</Link>
+            © All Copyright 2025 by <Link href={`/`}>Vertex</Link>
           </p>
         </div>
       </div>

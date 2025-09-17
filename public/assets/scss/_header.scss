@@ -129,18 +129,18 @@
 
 .header-section {
     .container-fluid {
-        padding: 0 150px;
+        padding: 20px 150px;
 
 		@include breakpoint (max-xl4){
-			padding: 0 50px;
+			padding: 20px 50px;
 		}
 
 		@include breakpoint (max-xxxl){
-			padding: 0 40px;
+			padding: 10px 40px;
 		}
 
 		@include breakpoint (max-xl){
-			padding: 0 20px;
+			padding: 10px 20px;
 		}
     }
 }

@@ -13,15 +13,15 @@ export default function Header1() {
             <div className="logo-image">
               <Link href={`/`}>
                 <Image
-                  src="/assets/img/logo/black-logo.svg"
+                  src="/assets/img/logo/vertex rapid.png"
                   width={149}
-                  height={64}
+                  height={99}
                   alt="img"
                 />
               </Link>
             </div>
             <div className="main-header-items">
-              <div className="header-contact-info-area">
+              {/* <div className="header-contact-info-area">
                 <div className="contact-info-items">
                   <div className="icon">
                     <i className="fa-sharp fa-solid fa-location-dot"></i>
@@ -58,17 +58,17 @@ export default function Header1() {
                     GAT A QUOTE <i className="fa-regular fa-arrow-right"></i>
                   </Link>
                 </div>
-              </div>
+              </div> */}
               <div id="header-sticky" className="header-1">
                 <div className="mega-menu-wrapper">
                   <div className="header-main">
                     <div className="logo">
                       <Link href={`/`} className="header-logo">
                         <Image
-                          src="/assets/img/logo/black-logo.svg"
+                          src="/assets/img/logo/vertex rapid.png"
                           alt="logo-img"
                           width={149}
-                          height={64}
+                          height={99}
                         />
                       </Link>
                     </div>
@@ -84,7 +84,7 @@ export default function Header1() {
                       </div>
                     </div>
                     <div className="header-right d-flex justify-content-end align-items-center">
-                      <a
+                      {/* <a
                         href="#0"
                         onClick={() =>
                           document
@@ -94,7 +94,7 @@ export default function Header1() {
                         className="search-trigger search-icon"
                       >
                         <i className="fal fa-search"></i>
-                      </a>
+                      </a> */}
                       <div className="header__hamburger d-xl-block my-auto">
                         <div
                           onClick={() => openMobilemenu()}

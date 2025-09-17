@@ -78,13 +78,15 @@ export default function Hero() {
                   />
                 </div>
                 <h1 className="splt-txt wow">
-                  <AnimatedText text="Create the" />
-                  <br /> <AnimatedText text="building you" />
-                  <br /> <AnimatedText text="want here" />
+                  <AnimatedText text="Vertex" />
+                  {/* <br /> <AnimatedText text="building you" />
+                  <br /> <AnimatedText text="want here" /> */}
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay=".5s">
-                  Proactively pontificate client-centered relationships visavis
-                  process centric leadership skills. Credibly.
+                  Vertex, established in 2020 and based in Tyre, Lebanon, is a
+                  leading electro-mechanical engineering company specializing in
+                  comprehensive design execution and consultancy services in
+                  both electrical and mechanical fields.
                 </p>
                 <div className="hero-button">
                   <Link
@@ -95,7 +97,7 @@ export default function Hero() {
                     Explore More
                     <i className="fa-regular fa-arrow-right"></i>
                   </Link>
-                  <span
+                  {/* <span
                     className="button-text wow fadeInUp"
                     data-wow-delay=".5s"
                   >
@@ -106,7 +108,7 @@ export default function Hero() {
                       <i className="fa-solid fa-play"></i>
                     </a>
                     <span className="ms-3 d-line">play reel</span>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -134,7 +136,7 @@ export default function Hero() {
                         height={11}
                         alt="img"
                       />
-                      Previews
+                      Previous
                     </button>
                     <button className="array-nexts">
                       Next{" "}

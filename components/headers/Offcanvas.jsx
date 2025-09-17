@@ -15,9 +15,9 @@ export default function Offcanvas({ children }) {
                 <div className="offcanvas__logo">
                   <Link href="/">
                     <Image
-                      src="/assets/img/logo/black-logo.svg"
+                      src="/assets/img/logo/vertex rapid.png"
                       width={149}
-                      height={64}
+                      height={99}
                       alt="logo-img"
                     />
                   </Link>
@@ -32,9 +32,9 @@ export default function Offcanvas({ children }) {
                 </div>
               </div>
               <p className="text d-none d-xl-block">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+                At Vertex, we understand that choosing the right
+                electro-mechanical partner is critical to the success of your
+                projects.
               </p>
               <div className="mobile-menu fix mb-3 mean-container">
                 <div className="mean-bar">
@@ -64,7 +64,7 @@ export default function Offcanvas({ children }) {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        Tyre, Lebanon
                       </a>
                     </div>
                   </li>
@@ -75,12 +75,12 @@ export default function Offcanvas({ children }) {
                     <div className="offcanvas__contact-text">
                       <a href="mailto:info@example.com">
                         <span className="mailto:info@example.com">
-                          info@example.com
+                          info@vertex.com
                         </span>
                       </a>
                     </div>
                   </li>
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock" />
                     </div>
@@ -89,18 +89,18 @@ export default function Offcanvas({ children }) {
                         Mod-friday, 09am -05pm
                       </a>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+961 70063194">+961 70063194</a>
                     </div>
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <a href="contact.html" className="theme-btn text-center">
+                  <a href="/contact" className="theme-btn text-center">
                     <span>
                       Get A Quote
                       <i className="fa-solid fa-arrow-right-long" />
@@ -112,11 +112,11 @@ export default function Offcanvas({ children }) {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <i className="fab fa-youtube" />
-                  </a>
+                  </a> */}
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>

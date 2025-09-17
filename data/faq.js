@@ -1,41 +1,41 @@
 export const faqs = [
   {
     id: 1,
-    question: "How long should a business plan be?",
+    question: "What services does Vertex provide?",
     answer:
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+      "Vertex offers end-to-end electro-mechanical solutions, including design, consultancy, contracting, panel building, automation, low current systems, solar energy, HVAC, and plumbing.",
     delay: ".1s",
     expanded: false,
   },
   {
     id: 2,
-    question: "What are the different stages of a construction project?",
+    question: "Which industries do you serve?",
     answer:
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+      "We work across commercial, industrial, residential, and governmental sectors, delivering customized solutions to meet diverse project needs.",
     delay: ".3s",
     expanded: true,
   },
   {
     id: 3,
-    question: "What are the different stages of a construction project?",
+    question: "Why should we choose Vertex over other providers?",
     answer:
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+      "Our comprehensive expertise, proven track record, quality standards, innovative solutions, and client-focused approach make us a trusted engineering partner.",
     delay: ".5s",
     expanded: false,
   },
   {
     id: 4,
-    question: "What are the different stages of a construction project?",
+    question: "Where is Vertex located, and do you operate outside Lebanon?",
     answer:
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+      "Vertex is based in Tyre, Lebanon, and while we focus on the local market, our services are delivered to international standards, making us capable of handling projects beyond Lebanon.",
     delay: ".6s",
     expanded: false,
   },
   {
     id: 5,
-    question: "What are the different stages of a construction project?",
+    question: "How does Vertex ensure project quality and reliability?",
     answer:
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+      "We combine industry best practices, advanced technologies, and strict adherence to standards, ensuring every project is safe, efficient, durable, and delivered on time.",
     delay: ".7s",
     expanded: false,
   },

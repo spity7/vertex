@@ -3,7 +3,7 @@ import ContactForm from "@/components/contact/ContactForm";
 import ContactInfo from "@/components/contact/ContactInfo";
 import Map from "@/components/contact/Map";
 import Footer1 from "@/components/footers/Footer1";
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
@@ -13,7 +13,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header2 />
+      <Header1 />
       <div
         className="breadcrumb-wrapper bg-cover"
         style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}

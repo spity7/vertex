@@ -16,19 +16,18 @@ export default function Achievements() {
                 <div className="section-title">
                   <h6 className="wow fadeInUp">
                     <i className="fa-regular fa-arrow-left-long" />
-                    ACHIVEMENTS
+                    VERTEX
                     <i className="fa-regular fa-arrow-right-long" />
                   </h6>
                   <h2 className="splt-txt wow">
-                    <AnimatedText text="Let's Get Started We Are" /> <br />
-                    <AnimatedText text="Now Constructing A Dream." />
+                    <AnimatedText text="Our Values" /> <br />
+                    {/* <AnimatedText text="Now Constructing A Dream." /> */}
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp">
-                  It is a long established fact that a reader will be distracted
-                  the readable content of a page when looking at layout the
-                  point of using lorem the is Ipsum less Xbuild normal
-                  distribution of letters.
+                  At Vertex, our values shape every decision, every design, and
+                  every project we deliver. They reflect our commitment to
+                  engineering excellence and long-term client partnerships.
                 </p>
                 <div className="row">
                   {counterItems.map((item) => (
@@ -56,10 +55,15 @@ export default function Achievements() {
                             />
                           </div>
                           <h2>
-                            <span className="count">{item.count}</span>
-                            {item.suffix}
+                            <span
+                              className="count"
+                              style={{ fontSize: "22px" }}
+                            >
+                              {item.count}
+                            </span>
+                            {/* {item.suffix} */}
                           </h2>
-                          <p>{item.label}</p>
+                          <p style={{ marginTop: 20 }}>{item.label}</p>
                         </div>
                       </div>
                     </div>

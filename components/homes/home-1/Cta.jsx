@@ -11,13 +11,15 @@ export default function Cta() {
           style={{ backgroundImage: 'url("/assets/img/cta-bg.jpg")' }}
         >
           <h2 className="splt-txt wow">
-            <AnimatedText text="Looking For Best Partner" /> <br />
-            <AnimatedText text="For Your" />{" "}
+            <AnimatedText text="Partner with Vertex For" /> <br />
+            {/* <AnimatedText text="For" />{" "} */}
             <b>
-              <AnimatedText text="Next Construction" />
+              <AnimatedText text="professionalism, reliability" />
             </b>{" "}
             <br />
-            <AnimatedText text="Works?" />
+            <b>
+              <AnimatedText text="and engineering excellence." />
+            </b>
           </h2>
           <div className="cta-img wow fadeInUp" data-wow-delay=".4s">
             <Image

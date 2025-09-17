@@ -40,7 +40,7 @@ export default function About() {
                     className="wow fadeInLeft"
                     data-wow-delay=".2s"
                   />
-                  <div
+                  {/* <div
                     className="about-image-2 wow fadeInUp"
                     data-wow-delay=".4s"
                   >
@@ -58,7 +58,7 @@ export default function About() {
                         <i className="fas fa-play"></i>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="about-line-shape">
                     <Image
                       src="/assets/img/about/about-shape-3.png"
@@ -73,35 +73,52 @@ export default function About() {
                 <div className="about-content">
                   <div className="section-title">
                     <h6 className="wow fadeInUp">
-                      <i className="fa-regular fa-arrow-left-long"></i>1976
-                      Building conpany
+                      <i className="fa-regular fa-arrow-left-long"></i>2020
+                      Vertex
                       <i className="fa-regular fa-arrow-right-long"></i>
                     </h6>
                     <h2 className="splt-txt wow">
-                      <AnimatedText text="Create The Building You Want Here" />
+                      <AnimatedText text="Why Us?" />
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-                    It is a long established fact that a reader will be
-                    distracted the readable content of a page when looking at
-                    layout the point of using lorem the is Ipsum less normal
-                    distribution of letters.
+                    At Vertex, we understand that choosing the right
+                    electro-mechanical partner is critical to the success of
+                    your projects. Here’s why our clients trust us:
                   </p>
                   <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Proactively pontificate client-centered relationships
+                      Expertise: End-to-end solutions in design, contracting,
+                      automation, and solar.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Is there a waiting list for desired work to be started
+                      Experience: Since 2020, successful projects across
+                      industries.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Release of Letraset sheets containing Lorem Ipsum
+                      Quality: Durable, safe, and efficient systems built to
+                      standards.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Innovation: Cutting-edge, sustainable technologies and
+                      practices.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Clients: Transparent, goal-driven, and collaborative
+                      approach.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Global Standards: Local presence in Tyre with
+                      international quality.
                     </li>
                   </ul>
-                  <div className="about-author">
+                  {/* <div className="about-author">
                     <div
                       className="author-image wow fadeInUp"
                       data-wow-delay=".2s"
@@ -125,20 +142,20 @@ export default function About() {
                       className="wow fadeInUp"
                       data-wow-delay=".4s"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>{" "}
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
         videoId="Cn4G2lZ_g2I"
         onClose={() => setOpen(false)}
-      />{" "}
+      />{" "} */}
     </>
   );
 }

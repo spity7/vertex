@@ -1,7 +1,7 @@
 export const testimonials = [
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !",
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !",
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !",
+  "Vertex, established in 2020 and based in Tyre, Lebanon, is a leading electro-mechanical engineering company specializing in comprehensive design execution and consultancy services in both electrical and mechanical fields. !",
+  "We offer a wide range of solutions, including electrical and mechanical contracting, panel building, automation, low current systems, and solar energy systems. Our expertise spans across all industries, serving commercial, industrial, residential, and governmental clients with dedication and precision. !",
+  "At Vertex, we pride ourselves on delivering high-quality, innovative, and reliable services that meet the evolving needs of our clients. Our commitment to excellence, combined with our professional approach and industry knowledge, positions us as a trusted partner for all your electro-mechanical needs. !",
 ];
 
 export const testimonials2 = [

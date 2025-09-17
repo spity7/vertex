@@ -21,22 +21,22 @@ export const metadata = {
 export default function Home1() {
   return (
     <>
-      <HeaderTop1 />
+      {/* <HeaderTop1 /> */}
       <Header1 />
       <Hero />
       <About />
       <Services />
       <Cta />
-      <Skills />
+      {/* <Skills /> */}
       <Testimonials />
       <Projects />
       <Faq />
-      <Team />
+      {/* <Team /> */}
       <Contact />
-      <Blogs />
-      <div className="brand-section fix section-padding">
+      {/* <Blogs /> */}
+      {/* <div className="brand-section fix section-padding">
         <Brands />
-      </div>
+      </div> */}
       <Footer1 />
     </>
   );

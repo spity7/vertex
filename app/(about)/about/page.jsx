@@ -1,8 +1,9 @@
-import Achievments from "@/components/about/Achievments";
+// import Achievments from "@/components/about/Achievments";
+import Achievements from "@/components/homes/home-2/Achievements";
 import Team from "@/components/about/Team";
 import Brands from "@/components/common/Brands";
 import Footer1 from "@/components/footers/Footer1";
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 import About from "@/components/homes/home-1/About";
 
 import Testimonials from "@/components/homes/home-1/Testimonials";
@@ -17,7 +18,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header2 />
+      <Header1 />
       <div
         className="breadcrumb-wrapper bg-cover"
         style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}
@@ -72,8 +73,9 @@ export default function page() {
         </div>
       </div>
       <About />
-      <Achievments />
+      {/* <Achievments /> */}
       <Testimonials />
+      <Achievements />
 
       <Team />
       <div className="brand-section fix section-padding pt-0">
