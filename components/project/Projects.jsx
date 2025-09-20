@@ -27,9 +27,10 @@ export default function Projects() {
                 </div>
                 <div className="project-content">
                   <h3>
-                    <Link href={`/project-details/${project.id}`}>
+                    {/* <Link href={`/project-details/${project.id}`}>
                       {project.title}
-                    </Link>
+                    </Link> */}
+                    <Link href={`/`}>{project.title}</Link>
                   </h3>
                   <p>{project.description}</p>
                 </div>

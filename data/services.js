@@ -216,24 +216,24 @@ export const services = [
 export const services2 = [
   {
     id: 23,
-    title: "Construction",
+    title: "Electrical & Mechanical Design & Consultancy",
   },
   {
     id: 24,
-    title: "House Renovation",
+    title: "Electrical & Mechanical Execution",
   },
   {
     id: 25,
-    title: "Material Supply",
+    title: "Panel Boards",
   },
   {
     id: 26,
-    title: "Project Management",
+    title: "Automation Solutions",
   },
-  {
-    id: 27,
-    title: "Heating and Water",
-  },
+  // {
+  //   id: 27,
+  //   title: "Heating and Water",
+  // },
 ];
 
 export const allServices = [

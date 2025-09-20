@@ -45,15 +45,19 @@ export default function Services() {
                 <div className="service-content">
                   <h2 className="number">{service.number}</h2>
                   <h3>
-                    <Link href={`/service-details/${service.id}`}>
+                    {/* <Link href={`/service-details/${service.id}`}>
                       {service.title}
-                    </Link>
+                    </Link> */}
+                    <Link href={`/`}>{service.title}</Link>
                   </h3>
                   <p>{service.description}</p>
-                  <Link
+                  {/* <Link
                     href={`/service-details/${service.id}`}
                     className="link-btn"
                   >
+                    Explore More <i className="fa-solid fa-arrow-right" />
+                  </Link> */}
+                  <Link href={`/`} className="link-btn">
                     Explore More <i className="fa-solid fa-arrow-right" />
                   </Link>
                 </div>

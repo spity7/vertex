@@ -119,7 +119,11 @@ export default function Footer1() {
                 <ul className="list-area">
                   {services2.map((elm, i) => (
                     <li key={i}>
-                      <Link href={`/service-details/${elm.id}`}>
+                      {/* <Link href={`/service-details/${elm.id}`}>
+                        <i className="fa-solid fa-chevrons-right" />
+                        {elm.title}
+                      </Link> */}
+                      <Link href={`/`}>
                         <i className="fa-solid fa-chevrons-right" />
                         {elm.title}
                       </Link>
