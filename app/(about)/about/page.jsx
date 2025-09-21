@@ -11,8 +11,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 export const metadata = {
-  title: "About || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "Vertex",
+  description: "Vertex",
 };
 
 export default function page() {

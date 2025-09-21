@@ -15,8 +15,8 @@ import Skills from "@/components/homes/home-1/Skills";
 import Team from "@/components/homes/home-1/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 export const metadata = {
-  title: "Home 1 || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "Vertex",
+  description: "Vertex",
 };
 export default function Home1() {
   return (

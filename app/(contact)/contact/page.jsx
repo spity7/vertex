@@ -7,8 +7,8 @@ import Header1 from "@/components/headers/Header1";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Contact || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "Vertex",
+  description: "Vertex",
 };
 export default function page() {
   return (

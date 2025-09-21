@@ -5,8 +5,8 @@ import Services from "@/components/service/Services";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Service || Xbuild - Constriction nextjs Template",
-  description: "Xbuild - Constriction nextjs Template",
+  title: "Vertex",
+  description: "Vertex",
 };
 
 export default function page() {
