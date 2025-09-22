@@ -9,11 +9,11 @@ import { useState } from "react";
 export default function Hero() {
   const [isOpen, setOpen] = useState(false);
   const swiperOptions = {
-    spaceBetween: 30,
-    speed: 2000,
+    spaceBetween: 10,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 2000,
+      delay: 1000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -59,7 +59,7 @@ export default function Hero() {
         </div>
         <div className="container-fluid">
           <div className="row g-4">
-            <div className="col-lg-7">
+            <div className="col-lg-6">
               <div className="hero-content">
                 <div className="vector-shape">
                   <Image
@@ -112,7 +112,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-6">
               <div className="hero-image-items">
                 <Swiper {...swiperOptions} className="swiper hero-slider">
                   {images.map((src, index) => (
@@ -123,6 +123,11 @@ export default function Hero() {
                           height={635}
                           src={src}
                           alt={`Hero ${index + 1}`}
+                          style={{
+                            borderRadius: "1rem",
+                            objectFit: "cover",
+                            display: "block",
+                          }}
                         />
                       </div>
                     </SwiperSlide>

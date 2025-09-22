@@ -59,6 +59,11 @@ export default function page() {
                 height={450}
                 alt="img"
                 className="float-bob-x"
+                style={{
+                  borderRadius: "1rem",
+                  objectFit: "cover",
+                  display: "block",
+                }}
               />
               <div className="bar-shape">
                 <Image
