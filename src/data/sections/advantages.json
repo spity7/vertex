@@ -1,23 +1,31 @@
 {
-    "title": "We Take Care of Everything <br>for You!",
-    "subtitle": "Our Advantages",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua.",
-    "items": [
-        {
-            "title": "Listen",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-            "title": "Strategies",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-            "title": "Project Work",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-            "title": "Launch",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        }
-    ]
+  "title": "We Build with Integrity, Excellence, and Innovation",
+  "subtitle": "Our Values",
+  "description": "At Vertex, our values guide every project we deliver — shaping how we design, build, and collaborate to achieve engineering excellence.",
+  "items": [
+    {
+      "title": "Integrity",
+      "text": "We conduct our work with honesty, transparency, and responsibility — earning the trust of our clients and partners."
+    },
+    {
+      "title": "Excellence",
+      "text": "We pursue the highest standards in design, execution, and service delivery, ensuring precision and quality in every detail."
+    },
+    {
+      "title": "Accountability",
+      "text": "We take ownership of every project — meeting deadlines, respecting budgets, and standing by our commitments."
+    },
+    {
+      "title": "Client Focus",
+      "text": "We listen carefully and act decisively, providing tailored solutions built around each client’s specific needs and goals."
+    },
+    {
+      "title": "Sustainability",
+      "text": "We integrate energy-efficient, environmentally responsible technologies to build a better and more sustainable future."
+    },
+    {
+      "title": "Teamwork",
+      "text": "We believe collaboration drives success — within our team and with our clients, contractors, and consultants."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 ---
 #preview
-title: Cascade of Lava
-image: /img/covers/4.jpg
+title: Mila Residence
+image: /img/covers/BR Mila - Scene 01.0 (4).jpg
 category: Decor
 category_slug: decor
 date: may 24 2023

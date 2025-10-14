@@ -1,27 +1,62 @@
 {
-    "title": "What We Do",
-    "subtitle": "Services",
-    "items": [
-        {
-            "icon": "/img/icons/3.svg",
-            "num": "01.",
-            "title": "Interior Decor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
-            "link": "/services/service-1"
-        },
-        {
-            "icon": "/img/icons/5.svg",
-            "num": "02.",
-            "title": "Interior Decor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
-            "link": "/services/service-2"
-        },
-        {
-            "icon": "/img/icons/4.svg",
-            "num": "03.",
-            "title": "Interior Decor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
-            "link": "/services/service-3"
-        }
-    ]
+  "title": "What We Do",
+  "subtitle": "Services",
+  "items": [
+    {
+      "icon": "/img/icons/3.svg",
+      "num": "01.",
+      "title": "Electrical & Mechanical Design & Consultancy",
+      "text": "End-to-end Design and consulting services for all Electrical and Mechanical systems.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/5.svg",
+      "num": "02.",
+      "title": "Electrical & Mechanical Execution",
+      "text": "Reliable implementation of all electrical and mechanical works, from installation to commissioning.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/4.svg",
+      "num": "03.",
+      "title": "Panel Boards",
+      "text": "Design, fabrication, and installation of high-quality electrical panels, including Distribution boards, Control Panels and MCCs built to international standards.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/3.svg",
+      "num": "04.",
+      "title": "Automation Solutions",
+      "text": "Smart automation systems, including PLC controls and industrial process optimization.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/5.svg",
+      "num": "05.",
+      "title": "Low Current Systems",
+      "text": "Design, supply and installation of low curremt systems, including CCTV, Access control, Fire alarm, Evacuation, BMS, ensuring safety and seamless integration.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/4.svg",
+      "num": "06.",
+      "title": "Solar Systems",
+      "text": "Design, supply and installation of solar power systems for residential, commercial and industrial applications.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/5.svg",
+      "num": "07.",
+      "title": "HVAC Systems",
+      "text": "Complete HVAC services, including system design, supply and installation ensuring energy-efficient climate control and air quality.",
+      "link": "/"
+    },
+    {
+      "icon": "/img/icons/4.svg",
+      "num": "08.",
+      "title": "Plumbing and Drainage Systems",
+      "text": "Full service plumbing and drainage solutions, including design and installation.",
+      "link": "/"
+    }
+  ]
 }

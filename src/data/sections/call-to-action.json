@@ -1,9 +1,9 @@
 {
-    "title": "Interested in Our <span class=\"mil-marker\">Work?</span>",
-    "subtitle": "Your Idea",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "button": {
-        "label": "Let's Talk Now",
-        "link": "/contact"
-    }
+  "title": "Power Your <span class=\"mil-marker\">Vision</span>",
+  "subtitle": "Let’s Build Together",
+  "description": "Partner with Vertex for innovative, reliable, and high-quality electro-mechanical engineering solutions. Tell us about your project — our team is ready to turn your ideas into reality.",
+  "button": {
+    "label": "Let's Talk Now",
+    "link": "/contact"
+  }
 }

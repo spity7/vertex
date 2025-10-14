@@ -1,7 +1,7 @@
 ---
 #preview
-title: Kemia Industrial Factory
-image: /img/covers/3.jpg
+title: Villa K
+image: /img/covers/VZ - cam009.1 (Large) (4).jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

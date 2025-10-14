@@ -1,16 +1,16 @@
 {
-    "button": {
-        "label": "Find a Space",
-        "link": "/contact"
+  "button": {
+    "label": "Contact Us",
+    "link": "/contact"
+  },
+  "items": [
+    {
+      "label": "Email address",
+      "value": "info@vertex-engineering.co"
     },
-    "items": [
-        {
-            "label": "Email address",
-            "value": "projects@ruizarch.com"
-        },
-        {
-            "label": "Free Consultation",
-            "value": "1 800 847 7978"
-        }
-    ]
+    {
+      "label": "Free Consultation",
+      "value": "+961 70 063 194"
+    }
+  ]
 }

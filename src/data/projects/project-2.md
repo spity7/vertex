@@ -1,7 +1,7 @@
 ---
 #preview
-title: City House
-image: /img/covers/2.jpg
+title: Villa Z
+image: /img/covers/cam001.2 Villa AZ (Large) (3).jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

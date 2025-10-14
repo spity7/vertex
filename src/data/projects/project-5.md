@@ -1,7 +1,7 @@
 ---
 #preview
-title: Smart House by Molekule
-image: /img/covers/5.jpg
+title: Mila Residence
+image: /img/covers/BR Mila - Scene 01.0 (5).jpg
 category: Interior
 category_slug: interior
 date: may 24 2023

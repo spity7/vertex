@@ -1,7 +1,7 @@
 ---
 #preview
-title: Tony's Chocolonely
-image: /img/covers/6.jpg
+title: Mila Residence
+image: /img/covers/BR Mila - Scene 01.0 (6).jpg
 category: Interior
 category_slug: interior
 date: may 24 2023

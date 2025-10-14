@@ -1,17 +1,17 @@
 {
-    "image": {
-        "url": "/img/photo/2.jpg",
-        "alt": "img"
-    },
-    "number": {
-        "value": "17",
-        "label": "<span class=\"mil-marker\">Years</span> of <br/>successful <br/>work"
-    },
-    "title": "Great experience",
-    "subtitle": "About Studio",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
-    "button": {
-        "link": "https://www.youtube.com/watch?v=HR4giV4oUjI",
-        "label": "Watch video"
-    }
+  "image": {
+    "url": "/img/photo/20230511_121958 (1).jpg",
+    "alt": "img"
+  },
+  "number": {
+    "value": "10",
+    "label": "<span class=\"mil-marker\">Years</span> of <br/>Engineering <br/>Excellence"
+  },
+  "title": "Who We Are",
+  "subtitle": "About Vertex",
+  "description": "Established in 2020 and based in Tyre, Lebanon, Vertex is a leading electro-mechanical engineering company specializing in design, execution, and consultancy across electrical and mechanical fields. We deliver innovative, reliable, and high-quality solutions for commercial, industrial, residential, and governmental projects.",
+  "button": {
+    "link": "https://www.youtube.com/watch?v=HR4giV4oUjI",
+    "label": "Watch video"
+  }
 }

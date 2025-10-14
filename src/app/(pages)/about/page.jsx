@@ -8,32 +8,50 @@ import AwardsSection from "@components/sections/Awards";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
+import AboutSection from "@components/sections/About";
 
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const CompanySlider = dynamic( () => import("@components/sliders/Company"), { ssr: false } );
-const ProcessSlider = dynamic( () => import("@components/sliders/Process"), { ssr: false } );
-const CompanyTwoSlider = dynamic( () => import("@components/sliders/CompanyTwo"), { ssr: false } );
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), {
+  ssr: false,
+});
+const TestimonialSlider = dynamic(
+  () => import("@components/sliders/Testimonial"),
+  { ssr: false }
+);
+const CompanySlider = dynamic(() => import("@components/sliders/Company"), {
+  ssr: false,
+});
+const ProcessSlider = dynamic(() => import("@components/sliders/Process"), {
+  ssr: false,
+});
+const CompanyTwoSlider = dynamic(
+  () => import("@components/sliders/CompanyTwo"),
+  { ssr: false }
+);
 
 export const metadata = {
   title: {
-		default: "About",
-	},
+    default: "About",
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
 const About = () => {
   return (
     <>
-      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/12.jpg"} />
-      <ServicesTwoSection />
+      <PageBanner
+        pageTitle={"About us"}
+        breadTitle={"About"}
+        bgImage={"/img/photo/20240330_113907.jpg"}
+      />
+      {/* <ServicesTwoSection /> */}
       <ContactInfoSection />
-      <CompanyTwoSlider />
+      {/* <CompanyTwoSlider /> */}
+      <AboutSection />
       <ProcessSlider paddingTop={"0"} />
       <CompanySlider />
-      <PartnersSlider bgStyle={"soft"} />
-      <AwardsSection />
-      <TestimonialSlider showPartners={0} />
+      {/* <PartnersSlider bgStyle={"soft"} /> */}
+      {/* <AwardsSection /> */}
+      {/* <TestimonialSlider showPartners={0} /> */}
       <CallToActionTwoSection />
     </>
   );

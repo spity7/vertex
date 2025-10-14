@@ -1,38 +1,38 @@
 {
-    "title": "We provide services <span class=\"mil-marker\">and</span> solutions",
-    "subtitle": "Our Company",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "signature": {
-        "name": "Jane Meldrum",
-        "subname": "CEO of Ruizarch",
-        "text": "J.meldrum"
+  "title": "We provide services <span class=\"mil-marker\">and</span> solutions",
+  "subtitle": "Our Company",
+  "description": "At Vertex, we understand that choosing the right electro-mechanical partner is critical to the success of your projects. Here’s why our clients trust us: <br/> Comprehensive Expertise: From design and consultancy to electrical and mechanical contracting, automation, and solar systems, we provide end-to-end solutions tailored to your needs.",
+  "signature": {
+    "name": "Hasan A.",
+    "subname": "CEO of Vetex",
+    "text": "H.Vertex"
+  },
+  "links": [
+    {
+      "title": "Morphological Thinking",
+      "link": "/services/service-1"
     },
-    "links": [
-        {
-            "title": "Morphological Thinking",
-            "link": "/services/service-1"
-        },
-        {
-            "title": "Creative Architectural",
-            "link": "/services/service-2"
-        },
-        {
-            "title": "Planning Designs",
-            "link": "/services/service-3"
-        }
-    ],
-    "items": [
-        {
-            "image": "/img/photo/2.jpg",
-            "alt": "image"
-        },
-        {
-            "image": "/img/photo/8.jpg",
-            "alt": "image"
-        },
-        {
-            "image": "/img/photo/7.jpg",
-            "alt": "image"
-        }
-    ]
+    {
+      "title": "Creative Architectural",
+      "link": "/services/service-2"
+    },
+    {
+      "title": "Planning Designs",
+      "link": "/services/service-3"
+    }
+  ],
+  "items": [
+    {
+      "image": "/img/photo/20230511_121958 (1).jpg",
+      "alt": "image"
+    },
+    {
+      "image": "/img/photo/8.jpg",
+      "alt": "image"
+    },
+    {
+      "image": "/img/photo/7.jpg",
+      "alt": "image"
+    }
+  ]
 }

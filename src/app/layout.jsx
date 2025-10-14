@@ -1,4 +1,4 @@
-import '@styles/scss/style.scss';
+import "@styles/scss/style.scss";
 import "./globals.css";
 
 import "@styles/css/plugins/bootstrap-grid.css";
@@ -15,15 +15,13 @@ import AppData from "@data/app.json";
 
 export const metadata = {
   title: {
-		default: AppData.settings.siteName,
-		template: "%s | " + AppData.settings.siteName,
-	},
+    default: AppData.settings.siteName,
+    template: "%s | " + AppData.settings.siteName,
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
-const Layouts = ({
-  children
-}) => {
+const Layouts = ({ children }) => {
   return (
     <html lang="en">
       <body>

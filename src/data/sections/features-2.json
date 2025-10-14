@@ -1,37 +1,37 @@
 {
-    "items": [
-        {
-            "title": "Perfect <br>Planning",
-            "text": "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "list": [
-                "3D Modeling",
-                "Programs to Map Territory",
-                "Robotics and AI Technology",
-                "Morphological Thinking",
-                "Material Simulation"
-            ]
-        },
-        {
-            "title": "Professional <br>Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "list": [
-                "3D Modeling",
-                "Programs to Map Territory",
-                "Robotics and AI Technology",
-                "Morphological Thinking",
-                "Material Simulation"
-            ]
-        },
-        {
-            "title": "Best Experts <br>Team",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed tempor incididunt ut labore et dolore magna aliqua.",
-            "list": [
-                "3D Modeling",
-                "Programs to Map Territory",
-                "Robotics and AI Technology",
-                "Morphological Thinking",
-                "Material Simulation"
-            ]
-        }
-    ]
+  "items": [
+    {
+      "title": "Comprehensive <br>Planning",
+      "text": "From initial concept to final execution, we develop precise and efficient electro-mechanical plans tailored to each project’s unique requirements.",
+      "list": [
+        "Electrical & Mechanical Design",
+        "Load and System Analysis",
+        "Energy Efficiency Planning",
+        "Automation Integration",
+        "Regulatory Compliance"
+      ]
+    },
+    {
+      "title": "Professional <br>Execution",
+      "text": "Our expert teams ensure every project is implemented safely, on schedule, and to the highest engineering standards.",
+      "list": [
+        "Electrical & Mechanical Contracting",
+        "Panel Building & Installation",
+        "Low Current & Control Systems",
+        "Testing and Commissioning",
+        "Quality Assurance & Inspection"
+      ]
+    },
+    {
+      "title": "Dedicated <br>Expert Team",
+      "text": "Vertex’s engineers and technicians combine innovation, precision, and collaboration to deliver reliable and future-ready solutions.",
+      "list": [
+        "Certified Engineers & Technicians",
+        "Continuous Training & Development",
+        "Advanced Tools & Technologies",
+        "Collaborative Project Management",
+        "Safety & Sustainability Commitment"
+      ]
+    }
+  ]
 }

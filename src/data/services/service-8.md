@@ -1,8 +1,8 @@
 ---
 #preview details
-title: "Electrical & Mechanical Execution"
+title: "Plumbing and Drainage Systems"
 icon: "/img/icons/5.svg"
-short: "Reliable implementation of all electrical and mechanical works, from installation to commissioning."
+short: "Full service plumbing and drainage solutions, including design and installation."
 
 #full details
 description:

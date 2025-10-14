@@ -1,8 +1,8 @@
 ---
 #preview details
-title: "Electrical & Mechanical Execution"
+title: "HVAC Systems"
 icon: "/img/icons/5.svg"
-short: "Reliable implementation of all electrical and mechanical works, from installation to commissioning."
+short: "Complete HVAC services, including system design, supply and installation ensuring energy-efficient climate control and air quality."
 
 #full details
 description:

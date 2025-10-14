@@ -1,7 +1,7 @@
 ---
 #preview
-title: Interior design studio
-image: /img/covers/1.jpg
+title: Mila Residence
+image: /img/covers/BR Mila - Scene 01.0 (3).jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023
