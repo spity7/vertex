@@ -47,7 +47,7 @@ const About = () => {
       <ContactInfoSection />
       {/* <CompanyTwoSlider /> */}
       <AboutSection />
-      <ProcessSlider paddingTop={"0"} />
+      {/* <ProcessSlider paddingTop={"0"} /> */}
       <CompanySlider />
       {/* <PartnersSlider bgStyle={"soft"} /> */}
       {/* <AwardsSection /> */}
