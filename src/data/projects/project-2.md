@@ -2,8 +2,8 @@
 #preview
 title: Villa Z
 image: /img/covers/cam001.2 Villa AZ (Large) (3).jpg
-category: Architecture
-category_slug: architecture
+category: Mechanical
+category_slug: mechanical
 date: may 24 2023
 orientation: vertical
 

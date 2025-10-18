@@ -88,16 +88,12 @@
   "projects": {
     "categories": [
       {
-        "name": "Architecture",
-        "slug": "architecture"
+        "name": "Electrical",
+        "slug": "electrical"
       },
       {
-        "name": "Interior",
-        "slug": "interior"
-      },
-      {
-        "name": "Decor",
-        "slug": "decor"
+        "name": "Mechanical",
+        "slug": "mechanical"
       }
     ]
   },

@@ -2,8 +2,8 @@
 #preview
 title: Mila Residence
 image: /img/covers/BR Mila - Scene 01.0 (4).jpg
-category: Decor
-category_slug: decor
+category: Mechanical
+category_slug: mechanical
 date: may 24 2023
 orientation: vertical
 

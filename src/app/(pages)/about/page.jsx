@@ -9,6 +9,7 @@ import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
 import AboutSection from "@components/sections/About";
+import AdvantagesSection from "../../_components/sections/Advantages";
 
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), {
   ssr: false,
@@ -47,6 +48,7 @@ const About = () => {
       <ContactInfoSection />
       {/* <CompanyTwoSlider /> */}
       <AboutSection />
+      <AdvantagesSection />
       {/* <ProcessSlider paddingTop={"0"} /> */}
       <CompanySlider />
       {/* <PartnersSlider bgStyle={"soft"} /> */}

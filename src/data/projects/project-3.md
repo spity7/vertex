@@ -2,8 +2,8 @@
 #preview
 title: Villa K
 image: /img/covers/VZ - cam009.1 (Large) (4).jpg
-category: Architecture
-category_slug: architecture
+category: Electrical
+category_slug: electrical
 date: may 24 2023
 
 #full details

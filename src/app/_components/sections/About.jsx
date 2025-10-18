@@ -14,7 +14,7 @@ const AboutSection = () => {
     <>
       {/* about */}
       <section className="mt-5">
-        <div className="container mil-p-0-30">
+        <div className="container">
           <div className="mil-background-grid mil-softened" />
 
           <div className="row justify-content-between align-items-center flex-sm-row-reverse">
