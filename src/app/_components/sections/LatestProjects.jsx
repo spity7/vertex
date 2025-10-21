@@ -30,6 +30,18 @@ const LatestProjectsSection = ({ projects }) => {
       <section>
         <div className="container-fluid">
           <div className="row">
+            <div className="col-12 mil-p-120-0">
+              <div className="mil-center mil-mb-90">
+                <span
+                  className="mil-suptitle mil-upper mil-up mil-mb-30"
+                  dangerouslySetInnerHTML={{ __html: "Vertex" }}
+                />
+                <h2
+                  className="mil-upper mil-up"
+                  dangerouslySetInnerHTML={{ __html: "Our Projects" }}
+                />
+              </div>
+            </div>
             {projectRows.map((row, row_key) => (
               <div
                 className="col-md-6 col-lg-3"
