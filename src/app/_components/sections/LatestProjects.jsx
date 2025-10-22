@@ -63,6 +63,9 @@ const LatestProjectsSection = ({ projects }) => {
                       <div className="mil-divider-sm mil-mb-20"></div>
                       <p>{item.short}</p>
                     </div>
+
+                    <div className="mil-category">{item.title}</div>
+                    <div className="mil-category22">{item.category}</div>
                   </Link>
                 ))}
               </div>

@@ -57,13 +57,13 @@ const AboutSection = () => {
                 </div>
                 <div className="mil-about-counter">
                   <h1
-                    className="mil-counter mil-right mil-mb-10"
+                    className="mil-counter mil-center mil-mb-10"
                     data-number={Data.number.value}
                   >
                     0
                   </h1>
                   <h5
-                    className="mil-upper mil-right"
+                    className="mil-upper mil-center"
                     dangerouslySetInnerHTML={{ __html: Data.number.label }}
                   />
                 </div>
