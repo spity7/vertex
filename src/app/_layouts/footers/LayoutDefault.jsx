@@ -49,9 +49,9 @@ const DefaultFooter = () => {
                     </nav>
                   </div>
                 </div>
-                <div className="col-md-6 col-lg-6 col-xl-6">
+                <div className="col-md-6 col-lg-6 col-xl-4">
                   <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
-                    Email:
+                    Email :
                   </span>
                   <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
                     info@vertex-engineering.co
@@ -61,13 +61,47 @@ const DefaultFooter = () => {
                     (773) 238 - 7162 */}
                   </p>
                 </div>
-                <div className="col-md-6 col-lg-6 col-xl-6">
+                <div className="col-md-6 col-lg-6 col-xl-3">
                   <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
-                    Phone:
+                    Phone :
                   </span>
                   <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
-                    +961 70063194 / +961 03935124 <br />
+                    +961 70063194 <br />
+                    +961 03935124 <br />
                     +961 70830139
+                  </p>
+                </div>
+                <div className="col-md-6 col-lg-6 col-xl-5">
+                  <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
+                    Location :
+                  </span>
+                  <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
+                    <img
+                      src="/img/flags/128px-Flag_of_Lebanon.svg.png"
+                      alt="Lebanon flag"
+                      style={{
+                        width: "20px",
+                        height: "14px",
+                        marginRight: "6px",
+                        display: "inline",
+                        verticalAlign: "middle",
+                      }}
+                    />
+                    Head Office: Tyre, Jal El Baher Center Dakhlalah, 4th Floor
+                    <br />
+                    <img
+                      src="/img/flags/128px-Flag_of_Lebanon.svg.png"
+                      alt="Lebanon flag"
+                      style={{
+                        width: "20px",
+                        height: "14px",
+                        marginRight: "6px",
+                        display: "inline",
+                        verticalAlign: "middle",
+                      }}
+                    />
+                    Panel Boards Factory: Tyre, Near LDC Laboratory
+                    Center Badawi, GF
                   </p>
                 </div>
                 {/* <div className="col-md-6 col-lg-6 col-xl-3">
