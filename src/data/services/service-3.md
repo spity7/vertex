@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "Panel Boards"
-icon: "/img/icons/4.svg"
+icon: "/img/icons/5.svg"
 short: "Design, fabrication, and installation of high-quality electrical panels, including Distribution boards, Control Panels and MCCs built to international standards."
 
 #full details

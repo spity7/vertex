@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "Low Current Systems"
-icon: "/img/icons/3.svg"
+icon: "/img/icons/7.svg"
 short: "Design, supply and installation of low curremt systems, including CCTV, Access control, Fire alarm, Evacuation, BMS, ensuring safety and seamless integration."
 
 #full details

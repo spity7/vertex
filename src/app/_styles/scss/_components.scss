@@ -780,6 +780,16 @@ portfolio
         & .mil-project-descr {
             opacity: 1;
             transform: translateY(0px);
+
+            & * {
+                opacity: 1;
+                transition-delay: .3s;
+            }
+        }
+
+        & .mil-category {
+            background-color: $light;
+            color: black;
         }
     }
 }

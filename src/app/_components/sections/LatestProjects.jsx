@@ -59,7 +59,7 @@ const LatestProjectsSection = ({ projects }) => {
                   >
                     <img src={item.image} alt={item.title} />
                     <div className="mil-project-descr">
-                      <h4 className="mil-upper mil-mb-20">{item.title}</h4>
+                      {/* <h4 className="mil-upper mil-mb-20">{item.title}</h4> */}
                       <div className="mil-divider-sm mil-mb-20"></div>
                       <p>{item.short}</p>
                     </div>

@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "Solar Systems"
-icon: "/img/icons/5.svg"
+icon: "/img/icons/8.svg"
 short: "Design, supply and installation of solar power systems for residential, commercial and industrial applications."
 
 #full details

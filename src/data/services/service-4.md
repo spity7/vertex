@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "Automation Solutions"
-icon: "/img/icons/4.svg"
+icon: "/img/icons/6.svg"
 short: "Smart automation systems, including PLC controls and industrial process optimization."
 
 #full details

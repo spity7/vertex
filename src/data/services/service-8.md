@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "Plumbing and Drainage Systems"
-icon: "/img/icons/5.svg"
+icon: "/img/icons/10.svg"
 short: "Full service plumbing and drainage solutions, including design and installation."
 
 #full details

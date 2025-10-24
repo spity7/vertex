@@ -57,8 +57,8 @@ const Contact = () => {
                 <div className="mil-sidebar-info">
                   <h6 className="mil-upper mil-up mil-mb-30">Headquarters</h6>
                   <ul className="mil-list mil-dark mil-up mil-mb-30">
-                    <li>Lebanon</li>
-                    <li>Tyre - Sea road</li>
+                    <li>Tyre, Jal El Baher Center Dakhlalah, 4th Floor</li>
+                    <li>Tyre, Near LDC Laboratory Center Badawi, GF</li>
                     {/* <li>Suite 300 NY, NY 80202</li> */}
                   </ul>
                   <h6 className="mil-upper mil-up mil-mb-30">Phone</h6>

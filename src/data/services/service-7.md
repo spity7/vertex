@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "HVAC Systems"
-icon: "/img/icons/5.svg"
+icon: "/img/icons/9.svg"
 short: "Complete HVAC services, including system design, supply and installation ensuring energy-efficient climate control and air quality."
 
 #full details

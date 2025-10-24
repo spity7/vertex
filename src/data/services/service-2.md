@@ -1,7 +1,7 @@
 ---
 #preview details
 title: "Electrical & Mechanical Execution"
-icon: "/img/icons/5.svg"
+icon: "/img/icons/4.svg"
 short: "Reliable implementation of all electrical and mechanical works, from installation to commissioning."
 
 #full details
