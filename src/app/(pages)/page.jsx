@@ -3,9 +3,6 @@ import dynamic from "next/dynamic";
 
 import AppData from "@data/app.json";
 
-import { getSortedPostsData } from "@library/posts";
-import { getSortedProjectsData } from "@library/projects";
-
 import HeroOneSection from "@components/sections/HeroOne";
 import AboutSection from "@components/sections/About";
 import IdeasSection from "@components/sections/Ideas";
@@ -29,8 +26,10 @@ export const metadata = {
 };
 
 async function Home1() {
-  const posts = await getAllPosts();
-  const projects = await getAllProjects();
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/projects`, {
+    cache: "no-store",
+  });
+  const { projects } = await res.json();
 
   return (
     <>
@@ -52,13 +51,3 @@ async function Home1() {
   );
 }
 export default Home1;
-
-async function getAllPosts() {
-  const allPosts = getSortedPostsData();
-  return allPosts;
-}
-
-async function getAllProjects() {
-  const allProjects = getSortedProjectsData();
-  return allProjects;
-}

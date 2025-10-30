@@ -4,7 +4,7 @@ import Link from "next/link";
 const LatestProjectsSection = ({ projects }) => {
   const projectRows0 = [];
 
-  for (var i = 0; i < Data.numOfItems; i += 3) {
+  for (var i = 0; i < 99; i += 3) {
     projectRows0.push(projects.slice(i, 3 + i));
   }
 
@@ -44,12 +44,11 @@ const LatestProjectsSection = ({ projects }) => {
             </div>
             {projectRows.map((row, row_key) => (
               <div
-                className="col-md-6 col-lg-3"
+                className="col-md-6 col-lg-6"
                 key={`projects-row-${row_key}`}
               >
                 {row.map((item, key) => (
-                  <Link
-                    href={`/`}
+                  <div
                     key={`projects-item-${key}`}
                     className={
                       row.length == 2
@@ -57,16 +56,16 @@ const LatestProjectsSection = ({ projects }) => {
                         : "mil-portfolio-item mil-long-item mil-up mil-mb-30"
                     }
                   >
-                    <img src={item.image} alt={item.title} />
+                    <img src={item.thumbnailUrl} alt={item.name} />
                     <div className="mil-project-descr">
                       {/* <h4 className="mil-upper mil-mb-20">{item.title}</h4> */}
                       <div className="mil-divider-sm mil-mb-20"></div>
                       <p>{item.short}</p>
                     </div>
 
-                    <div className="mil-category">{item.title}</div>
+                    <div className="mil-category">{item.name}</div>
                     <div className="mil-category22">{item.category}</div>
-                  </Link>
+                  </div>
                 ))}
               </div>
             ))}
