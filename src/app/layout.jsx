@@ -12,6 +12,7 @@ register();
 import ScrollbarProgress from "@layouts/scrollbar-progress/Index";
 
 import AppData from "@data/app.json";
+import { GlobalProvider } from "../context/GlobalContext";
 
 export const metadata = {
   title: {
@@ -25,11 +26,13 @@ const Layouts = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <div className="mil-wrapper">
-          {children}
+        <GlobalProvider>
+          <div className="mil-wrapper">
+            {children}
 
-          <ScrollbarProgress />
-        </div>
+            <ScrollbarProgress />
+          </div>
+        </GlobalProvider>
       </body>
     </html>
   );

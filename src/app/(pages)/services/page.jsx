@@ -1,16 +1,13 @@
-import React, { Suspense } from "react";
+"use client";
 
+import React, { Suspense, useState, useEffect } from "react";
 import AppData from "@data/app.json";
-
-import { getSortedServicesData } from "@library/services";
-
 import PageBanner from "@components/PageBanner";
 import VisionSection from "@components/sections/Vision";
 import FeaturesTwoSection from "@components/sections/FeaturesTwo";
 import AboutFourSection from "@components/sections/AboutFour";
 import CallToActionSection from "@components/sections/CallToAction";
-
-import Link from "next/link";
+import { useGlobalContext } from "@/src/context/GlobalContext";
 
 export const metadata = {
   title: {
@@ -19,8 +16,30 @@ export const metadata = {
   description: AppData.settings.siteDescription,
 };
 
-async function Services() {
-  const services = await getAllServices();
+function Services() {
+  const { getAllServices } = useGlobalContext();
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const data = await getAllServices(); // ✅ call the async function
+        setServices(data);
+      } catch (err) {
+        console.error("Error loading services:", err);
+        setError("Failed to load services");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchServices();
+  }, [getAllServices]);
+
+  if (loading) return <div>Loading services...</div>;
+  if (error) return <div>{error}</div>;
 
   return (
     <>
@@ -63,22 +82,25 @@ async function Services() {
           <div className="row">
             {services.map((item, key) => (
               <div className="col-lg-4 mil-up" key={`services-item-${key}`}>
-                <Link href={`/`} className="mil-service-card mil-mb-30">
+                <div className="mil-service-card mil-mb-30">
                   <div className="mil-card-number">
                     {key < 10 ? "0" + (key + 1) + "." : key + 1 + "."}
                   </div>
                   <div className="mil-center">
                     <div className="mil-icon mil-icon-lg mil-mb-30">
-                      <img src={item.icon} alt={item.title} />
+                      <img src={item.iconUrl} alt={item.name} />
                     </div>
-                    <h4 className="mil-upper mil-mb-20">{item.title}</h4>
+                    <h4 className="mil-upper mil-mb-20">{item.name}</h4>
                     <div className="mil-divider-sm mil-mb-20" />
-                    <p className="mil-service-text">{item.short}</p>
+                    <p
+                      className="mil-service-text"
+                      dangerouslySetInnerHTML={{ __html: item.description }}
+                    />
                     <div className="mil-go-buton mil-icon mil-icon-lg mil-icon-accent-bg">
                       <img src="/img/icons/1.svg" alt="icon" />
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
             ))}
           </div>
@@ -97,8 +119,3 @@ async function Services() {
   );
 }
 export default Services;
-
-async function getAllServices() {
-  const allServices = getSortedServicesData();
-  return allServices;
-}

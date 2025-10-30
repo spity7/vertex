@@ -37,7 +37,7 @@ const IdeasSection = () => {
                 dangerouslySetInnerHTML={{ __html: Data.description }}
               />
 
-              <div className="row">
+              {/* <div className="row">
                 {Data.items.map((item, key) => (
                   <div className="col-sm-4" key={`ideas-item-${key}`}>
                     <Link
@@ -54,7 +54,7 @@ const IdeasSection = () => {
                     </Link>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
