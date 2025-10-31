@@ -19,7 +19,10 @@ export const metadata = {
 };
 
 async function Projects() {
-  const projects = await getAllProjects();
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/projects`, {
+    cache: "no-store",
+  });
+  const { projects } = await res.json();
 
   return (
     <>
@@ -54,8 +57,3 @@ async function Projects() {
   );
 }
 export default Projects;
-
-async function getAllProjects() {
-  const allProjects = getSortedProjectsData();
-  return allProjects;
-}

@@ -79,18 +79,17 @@ const ProjectsMasonry = ({ projects, categories }) => {
 
             {projects.map((item, key) => (
               <div
-                className={`mil-grid-item ${item.category_slug}`}
+                className={`mil-grid-item ${item.category.toLowerCase()}`}
                 key={`projects-item-${key}`}
               >
-                <Link
-                  href={`/`}
+                <div
                   className={
                     item.orientation == "vertical"
                       ? "mil-portfolio-item-2 mil-long-item mil-mb-30"
                       : "mil-portfolio-item-2 mil-square-item mil-mb-30"
                   }
                 >
-                  <img src={item.image} alt={item.title} />
+                  <img src={item.thumbnailUrl} alt={item.name} />
 
                   <div className="mil-project-descr">
                     {/* <h3 className="mil-upper mil-mb-30">{item.title}</h3> */}
@@ -102,9 +101,9 @@ const ProjectsMasonry = ({ projects, categories }) => {
                     </div>
                   </div>
 
-                  <div className="mil-category">{item.title}</div>
+                  <div className="mil-category">{item.name}</div>
                   <div className="mil-category22">{item.category}</div>
-                </Link>
+                </div>
               </div>
             ))}
           </div>
