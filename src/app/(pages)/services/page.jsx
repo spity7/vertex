@@ -9,13 +9,6 @@ import AboutFourSection from "@components/sections/AboutFour";
 import CallToActionSection from "@components/sections/CallToAction";
 import { useGlobalContext } from "@/src/context/GlobalContext";
 
-export const metadata = {
-  title: {
-    default: "Services",
-  },
-  description: AppData.settings.siteDescription,
-};
-
 function Services() {
   const { getAllServices } = useGlobalContext();
   const [services, setServices] = useState([]);
