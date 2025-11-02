@@ -762,7 +762,7 @@ portfolio
     & .mil-category22 {
         position: absolute;
         top: calc(100% - 30px);
-        left: -30px;
+        left: -10px;
         width: 180px;
         text-align: center;
         // transform: rotate(-90deg);
@@ -770,6 +770,7 @@ portfolio
         font-weight: 500;
         text-transform: uppercase;
         transition: $t-md;
+        color: white;
     }
 
     &:hover {
@@ -859,7 +860,7 @@ portfolio
     & .mil-category22 {
         position: absolute;
         top: calc(100% - 30px);
-        left: -30px;
+        left: -10px;
         width: 180px;
         text-align: center;
         // transform: rotate(-90deg);
@@ -867,6 +868,7 @@ portfolio
         font-weight: 500;
         text-transform: uppercase;
         transition: $t-md;
+        color: white;
     }
 
     &:hover {

@@ -102,7 +102,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
                   </div>
 
                   <div className="mil-category">{item.name}</div>
-                  <div className="mil-category22">{item.category}</div>
+                  <div className="mil-category22">{item.location}</div>
                 </div>
               </div>
             ))}
