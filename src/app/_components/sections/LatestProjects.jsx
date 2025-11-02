@@ -48,7 +48,8 @@ const LatestProjectsSection = ({ projects }) => {
                 key={`projects-row-${row_key}`}
               >
                 {row.map((item, key) => (
-                  <div
+                  <Link
+                    href={`/projects/${item._id}`}
                     key={`projects-item-${key}`}
                     className={
                       row.length == 2
@@ -65,7 +66,7 @@ const LatestProjectsSection = ({ projects }) => {
 
                     <div className="mil-category">{item.name}</div>
                     <div className="mil-category22">{item.category}</div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             ))}
