@@ -25,7 +25,7 @@ const ServicesSection = () => {
     fetchServices();
   }, [getAllServices]);
 
-  if (loading) return <div>Loading services...</div>;
+  // if (loading) return <div>Loading services...</div>;
   if (error) return <div>{error}</div>;
 
   return (

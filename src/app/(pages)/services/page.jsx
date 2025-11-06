@@ -31,7 +31,6 @@ function Services() {
     fetchServices();
   }, [getAllServices]);
 
-  if (loading) return <div>Loading services...</div>;
   if (error) return <div>{error}</div>;
 
   return (
@@ -39,7 +38,7 @@ function Services() {
       <PageBanner
         pageTitle={"Our Services"}
         breadTitle={"Services"}
-        bgImage={"/img/photo/20240330_113907.jpg"}
+        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.09.43_06705de0.jpg"}
       />
 
       {/* services */}

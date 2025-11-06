@@ -20,7 +20,7 @@ const Contact = () => {
       <PageBanner
         pageTitle={"We’d love to talk"}
         breadTitle={"Contact"}
-        bgImage={"/img/photo/20240330_113907.jpg"}
+        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.13.25_422237c8.jpg"}
       />
 
       {/* about */}
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="col-lg-4 mil-relative">
               <div className="mil-contact-sidebar">
                 <img
-                  src="img/photo/20230511_121958 (1).jpg"
+                  src="img/photo/WhatsApp Image 2025-11-03 at 22.14.54_a909efad.jpg"
                   alt="img"
                   style={{
                     width: "100%",
@@ -126,7 +126,7 @@ const Contact = () => {
       <div className="mil-map-frame mil-up">
         <div className="mil-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3335.4510800993535!2d35.216626975683695!3d33.28086017345711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDE2JzUxLjEiTiAzNcKwMTMnMDkuMSJF!5e0!3m2!1sen!2slb!4v1762360177077!5m2!1sen!2slb"
             style={{ border: "0" }}
             allowFullScreen
             loading="lazy"

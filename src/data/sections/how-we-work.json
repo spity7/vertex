@@ -4,17 +4,17 @@
   "items": [
     {
       "title": "Comprehensive Approach",
-      "icon": "/img/icons/7.svg",
+      "icon": "/img/icons/inspiration.png",
       "text": "From design and consultancy to execution and maintenance, we manage every phase with precision and professionalism."
     },
     {
       "title": "Expert Teamwork",
-      "icon": "/img/icons/8.svg",
+      "icon": "/img/icons/support.png",
       "text": "Our skilled engineers and technicians collaborate closely to deliver reliable, high-quality electro-mechanical solutions."
     },
     {
       "title": "Innovation & Technology",
-      "icon": "/img/icons/9.svg",
+      "icon": "/img/icons/innovation.png",
       "text": "We integrate the latest technologies and best practices to provide efficient, safe, and sustainable systems."
     }
   ]

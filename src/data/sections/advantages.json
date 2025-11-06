@@ -5,26 +5,32 @@
   "items": [
     {
       "title": "Integrity",
+      "icon": "/img/icons/collaborate.png",
       "text": "We conduct our work with honesty, transparency, and responsibility — earning the trust of our clients and partners."
     },
     {
       "title": "Excellence",
+      "icon": "/img/icons/service.png",
       "text": "We pursue the highest standards in design, execution, and service delivery, ensuring precision and quality in every detail."
     },
     {
       "title": "Accountability",
+      "icon": "/img/icons/accountability.png",
       "text": "We take ownership of every project — meeting deadlines, respecting budgets, and standing by our commitments."
     },
     {
       "title": "Client Focus",
+      "icon": "/img/icons/target-audience.png",
       "text": "We listen carefully and act decisively, providing tailored solutions built around each client’s specific needs and goals."
     },
     {
       "title": "Sustainability",
+      "icon": "/img/icons/save-the-world.png",
       "text": "We integrate energy-efficient, environmentally responsible technologies to build a better and more sustainable future."
     },
     {
       "title": "Teamwork",
+      "icon": "/img/icons/meeting.png",
       "text": "We believe collaboration drives success — within our team and with our clients, contractors, and consultants."
     }
   ]

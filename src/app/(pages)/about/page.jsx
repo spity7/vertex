@@ -42,7 +42,7 @@ const About = () => {
       <PageBanner
         pageTitle={"About us"}
         breadTitle={"About"}
-        bgImage={"/img/photo/20240330_113907.jpg"}
+        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.04.39_b5cd1034.jpg"}
       />
       {/* <ServicesTwoSection /> */}
       <ContactInfoSection />
