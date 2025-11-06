@@ -20,7 +20,9 @@ const Contact = () => {
       <PageBanner
         pageTitle={"We’d love to talk"}
         breadTitle={"Contact"}
-        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.13.25_422237c8.jpg"}
+        bgImage={
+          "/img/photo/WhatsApp Image 2025-11-03 at 22.13.25_422237c8.jpg"
+        }
       />
 
       {/* about */}
@@ -158,12 +160,12 @@ const Contact = () => {
                   and grow with Vertex.
                 </p>
                 <div className="mil-up">
-                  <Link href="#" className="mil-link mil-upper">
+                  <div className="mil-link mil-upper">
                     Join Us{" "}
                     <span className="mil-arrow">
                       <img src="/img/icons/1.svg" alt="arrow" />
                     </span>
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
