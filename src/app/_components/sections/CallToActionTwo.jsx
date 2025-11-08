@@ -5,7 +5,7 @@ const CallToActionTwoSection = ({ bg }) => {
   return (
     <>
       {/* call to action two */}
-      <section className="mil-dark-bg mil-relative mil-o-hidden">
+      <section className="mil-dark-bg mil-relative mil-o-hidden mil-mb-40">
         <img
           src={Data.bg_image}
           className="mil-bg-img mil-scale"

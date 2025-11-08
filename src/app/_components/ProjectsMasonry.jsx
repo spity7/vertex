@@ -82,7 +82,9 @@ const ProjectsMasonry = ({ projects, categories }) => {
                 className={`mil-grid-item ${item.category.toLowerCase()}`}
                 key={`projects-item-${key}`}
               >
-                <div
+                <Link
+                  href={`/projects/${item._id}`}
+                  key={`projects-item-${key}`}
                   className={
                     item.orientation == "vertical"
                       ? "mil-portfolio-item-2 mil-long-item mil-mb-30"
@@ -103,7 +105,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
 
                   <div className="mil-category">{item.name}</div>
                   <div className="mil-category22">{item.location}</div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

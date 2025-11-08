@@ -94,6 +94,10 @@
       {
         "name": "Mechanical",
         "slug": "mechanical"
+      },
+      {
+        "name": "MEP",
+        "slug": "mep"
       }
     ]
   },

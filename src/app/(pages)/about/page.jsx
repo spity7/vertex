@@ -8,7 +8,7 @@ import AwardsSection from "@components/sections/Awards";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
-import AboutSection from "@components/sections/About";
+import About2Section from "@components/sections/About2";
 import AdvantagesSection from "../../_components/sections/Advantages";
 
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), {
@@ -42,12 +42,12 @@ const About = () => {
       <PageBanner
         pageTitle={"About us"}
         breadTitle={"About"}
-        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.04.39_b5cd1034.jpg"}
+        bgImage={"/img/photo/20251108_121100.jpg"}
       />
       {/* <ServicesTwoSection /> */}
       <ContactInfoSection />
       {/* <CompanyTwoSlider /> */}
-      <AboutSection />
+      <About2Section />
       <AdvantagesSection />
       {/* <ProcessSlider paddingTop={"0"} /> */}
       <CompanySlider />

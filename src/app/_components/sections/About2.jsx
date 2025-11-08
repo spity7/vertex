@@ -7,7 +7,7 @@ import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
-const AboutSection = () => {
+const About2Section = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -48,8 +48,8 @@ const AboutSection = () => {
               <div className="mil-illustration mil-up mil-mb-90">
                 <div className="mil-image-frame">
                   <img
-                    src={Data.image.url}
-                    alt={Data.image.alt}
+                    src={Data.image2.url}
+                    alt={Data.image2.alt}
                     className="mil-scale"
                     data-value-1="1"
                     data-value-2="1.3"
@@ -87,4 +87,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About2Section;
