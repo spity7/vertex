@@ -38,7 +38,7 @@ function Services() {
       <PageBanner
         pageTitle={"Our Services"}
         breadTitle={"Services"}
-        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.09.43_06705de0.jpg"}
+        bgImage={"/img/photo/VideoCapture_20250927-154719.jpg"}
       />
 
       {/* services */}

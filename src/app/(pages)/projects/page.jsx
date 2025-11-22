@@ -29,7 +29,7 @@ async function Projects() {
       <PageBanner
         pageTitle={"Projects"}
         breadTitle={"Projects"}
-        bgImage={"/img/photo/WhatsApp Image 2025-11-03 at 22.10.21_bce3cad6.jpg"}
+        bgImage={"/img/photo/20251118_201451.jpg"}
       />
 
       {/* portfolio */}

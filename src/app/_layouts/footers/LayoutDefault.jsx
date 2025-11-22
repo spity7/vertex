@@ -12,7 +12,7 @@ const DefaultFooter = () => {
       {/* footer */}
       <footer className="mil-relative">
         <img
-          src="/img/photo/WhatsApp Image 2025-11-03 at 21.55.41_1e7b1d46.jpg"
+          src="/img/photo/20251015_111400.jpg"
           className="mil-bg-img mil-parallax"
           alt="image"
           style={{ objectPosition: "top" }}
