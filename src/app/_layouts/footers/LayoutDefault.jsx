@@ -16,19 +16,19 @@ const DefaultFooter = () => {
           className="mil-bg-img mil-parallax"
           alt="image"
           style={{ objectPosition: "top" }}
-          data-value-1="-25%"
-          data-value-2="23%"
+        // data-value-1="-25%"
+        // data-value-2="23%"
         />
 
         <div className="mil-overlay" />
-        <div className="container mil-p-120-90">
+        <div className="container mil-p-90-60">
           <div className="mil-background-grid" />
 
           <div className="row align-items-end">
             <div className="col-lg-8">
               <div className="row">
                 <div className="col-12">
-                  <div className="mil-footer-navigation mil-up mil-mb-90">
+                  <div className="mil-footer-navigation mil-up mil-mb-40">
                     <nav>
                       <ul>
                         {AppData.footer.menu.map((item, key) => (
@@ -37,7 +37,7 @@ const DefaultFooter = () => {
                             className={
                               (asPath.indexOf(item.link) != -1 &&
                                 item.link != "/") ||
-                              asPath == item.link
+                                asPath == item.link
                                 ? "mil-active"
                                 : ""
                             }

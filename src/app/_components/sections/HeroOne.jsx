@@ -29,12 +29,12 @@ const HeroOne = () => {
           <div className="mil-banner-content">
             <div className="row align-items-end">
               <div className="col-xl-7">
-                <div className="mil-mb-90">
-                  <span className="mil-suptitle mil-light mil-upper mil-mb-60">
+                <div className="mil-mb-10">
+                  <span className="mil-suptitle mil-light mil-upper mil-mb-20">
                     {Data.subtitle}
                   </span>
                   <h1
-                    className="mil-upper mil-light mil-mb-60"
+                    className="mil-upper mil-light mil-mb-20"
                     dangerouslySetInnerHTML={{ __html: Data.title }}
                   />
                   <Link

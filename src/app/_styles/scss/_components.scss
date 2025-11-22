@@ -129,7 +129,7 @@ banner
         height: auto;
 
         & .mil-banner-content {
-            padding: 190px 0 0;
+            padding: 120px 0 0;
         }
 
         & .mil-banner-slider-2 {
@@ -311,7 +311,7 @@ counters
 .mil-counter-frame {
     width: 100%;
     border: 5px solid $dt-10;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
     padding: 15px;
 
     & p {
@@ -326,7 +326,7 @@ counters
 
     &.mil-light {
         border: 5px solid $lt-20;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $lt-20 1px, $lt-20 3px) 5;
+        border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $lt-20 1px, $lt-20 3px) 5;
     }
 }
 
@@ -387,7 +387,7 @@ illustrations
             height: 100%;
             background-color: transparent;
             border: 30px solid $dt-10;
-            border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 30;
+            border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 30;
             position: absolute;
             z-index: -1;
             bottom: -30px;
@@ -500,7 +500,7 @@ icons
 
     &.mil-icon-border {
         border: 5px solid $gs-10;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 5;
+        border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 5;
     }
 
     &.mil-icon-lg {
@@ -532,7 +532,7 @@ icons
 
             &.mil-icon-border {
                 border: 5px solid $accent;
-                border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 5;
+                border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 5;
             }
         }
     }
@@ -545,7 +545,7 @@ icons
         height: 5px;
         background-color: transparent;
         border: 3px solid $gs-10;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 3;
+        border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 3;
         position: absolute;
         z-index: -1;
         top: 85px;
@@ -566,7 +566,7 @@ icons
         &:before {
             background-color: transparent;
             border: 3px solid $accent;
-            border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 3;
+            border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 3;
         }
 
         & .mil-icon {
@@ -615,7 +615,7 @@ services
     overflow: hidden;
     padding: 60px;
     border: 5px solid $dt-10;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
     transition: $t-md;
 
     & .mil-card-number {
@@ -649,7 +649,7 @@ services
         padding-top: 80px;
         padding-bottom: 40px;
         border: 5px solid $accent;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 5;
+        border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 5;
 
         & .mil-service-text {
             opacity: 0;
@@ -737,7 +737,8 @@ portfolio
         opacity: 0;
         transition: $t-md;
 
-        h4, p {
+        h4,
+        p {
             color: #fff;
         }
     }
@@ -808,7 +809,7 @@ portfolio
         padding-bottom: 65%;
     }
 
-    & > img {
+    &>img {
         position: absolute;
         top: 0;
         left: 0;
@@ -1149,13 +1150,28 @@ blog
     }
 
     .mil-text {
-        p, img, blockquote, iframe, table, ul, ol, h1, h2, h3, h4, h5, h6, object {
+
+        p,
+        img,
+        blockquote,
+        iframe,
+        table,
+        ul,
+        ol,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        object {
             margin-bottom: 40px;
 
             &:last-child {
                 margin-bottom: 0;
             }
         }
+
         img {
             max-width: 100%;
         }
@@ -1223,7 +1239,7 @@ footer {
                 }
 
                 &.mil-active {
-                    & > a {
+                    &>a {
                         padding: 5px 10px;
                         color: $dark;
                         background-color: $accent;
@@ -1401,7 +1417,7 @@ top panel
                 }
 
                 &.mil-active {
-                    & > a {
+                    &>a {
                         padding: 0 10px;
                         color: $dark;
                         background-color: $accent;
@@ -1525,7 +1541,7 @@ top panel
                             display: none;
                         }
 
-                        & > a {
+                        &>a {
                             &:before {
                                 content: '';
                                 position: absolute;
@@ -1568,6 +1584,7 @@ top panel
                                     margin-bottom: 30px;
                                 }
                             }
+
                             &.mil-active {
                                 margin-top: 15px;
                                 max-height: 250px;
@@ -1901,13 +1918,13 @@ inputs
         position: absolute;
         opacity: 0;
 
-        & + label {
+        &+label {
             position: relative;
             cursor: pointer;
             padding: 0;
         }
 
-        & + label:before {
+        &+label:before {
             content: '';
             margin-top: -2px;
             margin-right: 15px;
@@ -1921,27 +1938,27 @@ inputs
             transition: $t-sm;
         }
 
-        &:hover + label:before {
+        &:hover+label:before {
             background: $lt-10;
             border: solid 1px $accent;
         }
 
-        &:checked + label:before {
+        &:checked+label:before {
             background: $accent;
             border: solid 1px $accent;
         }
 
-        &:disabled + label {
+        &:disabled+label {
             color: #b8b8b8;
             cursor: auto;
         }
 
-        &:disabled + label:before {
+        &:disabled+label:before {
             box-shadow: none;
             background: #ddd;
         }
 
-        &:checked + label:after {
+        &:checked+label:after {
             content: '';
             position: absolute;
             left: 5px;
@@ -1962,11 +1979,11 @@ inputs
 
     &.mil-dark-input {
         & .mil-checkbox {
-            & + label:before {
+            &+label:before {
                 border-color: $dark;
             }
 
-            &:checked + label:before {
+            &:checked+label:before {
                 background: $accent;
                 border: solid 1px $accent;
             }
@@ -2189,7 +2206,7 @@ call to action
 .mil-contact-frame {
     padding: 60px 60px 30px;
     border: 5px solid $dt-5;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
 
     @media screen and (max-width: 992px) {
         padding: 30px 30px 0;
@@ -2232,7 +2249,7 @@ sidebar
     position: relative;
     padding: 60px 60px 60px;
     border: 5px solid $dt-5;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
 
     &:before {
         content: '';
@@ -2457,7 +2474,7 @@ team
 
     &:hover {
         border: 5px solid $dt-5;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+        border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
 
         &:after {
             opacity: 1;
