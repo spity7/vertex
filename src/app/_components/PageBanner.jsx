@@ -43,7 +43,7 @@ const PageBanner = ({ pageTitle, breadTitle, bgImage }) => {
               <div className="mil-background-grid mil-top-space" />
 
               <div className="mil-banner-content mil-center">
-                  <div className="mil-mb-90">
+                  <div className="mil-mb-60">
                       <h1 className="mil-light mil-upper mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} />
                       <ul className="mil-breadcrumbs mil-center">
                       <li><Link href="/">Home</Link></li>

@@ -44,7 +44,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-4 mil-relative">
               <div className="mil-contact-sidebar">
-                <img
+                {/* <img
                   src="img/photo/WhatsApp Image 2025-11-03 at 22.14.54_a909efad.jpg"
                   alt="img"
                   style={{
@@ -54,22 +54,22 @@ const Contact = () => {
                     objectPosition: "0 -60px",
                   }}
                   className="mil-mb-30"
-                />
+                /> */}
 
                 <div className="mil-sidebar-info">
-                  <h6 className="mil-upper mil-up mil-mb-30">Headquarters</h6>
+                  <h6 className="mil-upper mil-up mil-mb-5">Headquarters:</h6>
                   <ul className="mil-list mil-dark mil-up mil-mb-30">
                     <li>Tyre, Jal El Baher Center Dakhlalah, 4th Floor</li>
                     <li>Tyre, Near LDC Laboratory Center Badawi, GF</li>
                     {/* <li>Suite 300 NY, NY 80202</li> */}
                   </ul>
-                  <h6 className="mil-upper mil-up mil-mb-30">Phone</h6>
+                  <h6 className="mil-upper mil-up mil-mb-5">Phone:</h6>
                   <ul className="mil-list mil-dark mil-up mil-mb-30">
                     <li>+961 70 063 194</li>
                     <li>+961 03 935 124</li>
                     <li>+961 70 830 139</li>
                   </ul>
-                  <h6 className="mil-upper mil-up mil-mb-30">Email</h6>
+                  <h6 className="mil-upper mil-up mil-mb-5">Email:</h6>
                   <ul className="mil-list mil-dark mil-up">
                     <li>info@vertex-engineering.com</li>
                   </ul>

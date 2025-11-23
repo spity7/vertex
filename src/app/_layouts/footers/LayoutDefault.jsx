@@ -27,7 +27,7 @@ const DefaultFooter = () => {
           <div className="row align-items-end">
             <div className="col-lg-8">
               <div className="row">
-                <div className="col-12">
+                {/* <div className="col-12">
                   <div className="mil-footer-navigation mil-up mil-mb-40">
                     <nav>
                       <ul>
@@ -48,7 +48,7 @@ const DefaultFooter = () => {
                       </ul>
                     </nav>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-md-6 col-lg-6 col-xl-4">
                   <span className="mil-suptitle mil-light mil-upper mil-up">
                     Email :
