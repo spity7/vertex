@@ -17,7 +17,7 @@ const CoresSection = () => {
       <section className="mil-dark-bg mil-relative mil-o-hidden mil-mb-40">
         <img
           src={Data.bg_image}
-          className="mil-bg-img mil-scale"
+          className="mil-bg-img"
           alt="image"
           style={{ objectPosition: "top" }}
           data-value-1="1"

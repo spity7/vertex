@@ -17,7 +17,7 @@ const HeroOne = () => {
       <section className="mil-banner">
         <img
           src={Data.bg_image}
-          className="mil-bg-img mil-scale"
+          className="mil-bg-img"
           data-value-1=".4"
           data-value-2="1.4"
           alt="image"

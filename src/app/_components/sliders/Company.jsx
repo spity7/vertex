@@ -28,8 +28,6 @@ const CompanySlider = () => {
                   className="mil-up mil-mb-40"
                   dangerouslySetInnerHTML={{ __html: Data.description }}
                 />
-
-                
               </div>
             </div>
             <div className="col-lg-6">

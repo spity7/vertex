@@ -13,11 +13,11 @@ const DefaultFooter = () => {
       <footer className="mil-relative">
         <img
           src="/img/photo/VideoCapture_20250927-154719.jpg"
-          className="mil-bg-img mil-parallax"
+          className="mil-bg-img"
           alt="image"
           style={{ objectPosition: "top" }}
-          // data-value-1="-25%"
-          // data-value-2="23%"
+          data-value-1="-25%"
+          data-value-2="23%"
         />
 
         <div className="mil-overlay" />

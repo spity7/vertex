@@ -50,7 +50,7 @@ const AboutSection = () => {
                   <img
                     src={Data.image.url}
                     alt={Data.image.alt}
-                    className="mil-scale"
+                    className=""
                     data-value-1="1"
                     data-value-2="1.3"
                   />
