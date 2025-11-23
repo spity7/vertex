@@ -12,12 +12,12 @@ const DefaultFooter = () => {
       {/* footer */}
       <footer className="mil-relative">
         <img
-          src="/img/photo/20251015_111400.jpg"
+          src="/img/photo/VideoCapture_20250927-154719.jpg"
           className="mil-bg-img mil-parallax"
           alt="image"
           style={{ objectPosition: "top" }}
-        // data-value-1="-25%"
-        // data-value-2="23%"
+          // data-value-1="-25%"
+          // data-value-2="23%"
         />
 
         <div className="mil-overlay" />
@@ -37,7 +37,7 @@ const DefaultFooter = () => {
                             className={
                               (asPath.indexOf(item.link) != -1 &&
                                 item.link != "/") ||
-                                asPath == item.link
+                              asPath == item.link
                                 ? "mil-active"
                                 : ""
                             }
@@ -50,7 +50,7 @@ const DefaultFooter = () => {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-4">
-                  <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
+                  <span className="mil-suptitle mil-light mil-upper mil-up">
                     Email :
                   </span>
                   <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
@@ -62,7 +62,7 @@ const DefaultFooter = () => {
                   </p>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-3">
-                  <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
+                  <span className="mil-suptitle mil-light mil-upper mil-up">
                     Phone :
                   </span>
                   <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
@@ -72,10 +72,10 @@ const DefaultFooter = () => {
                   </p>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-5">
-                  <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
+                  <span className="mil-suptitle mil-light mil-upper mil-up">
                     Location :
                   </span>
-                  <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
+                  <p className="mil-text-sm mil-up mil-light-soft">
                     <img
                       src="/img/flags/128px-Flag_of_Lebanon.svg.png"
                       alt="Lebanon flag"
