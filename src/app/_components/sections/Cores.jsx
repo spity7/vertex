@@ -14,7 +14,7 @@ const CoresSection = () => {
   return (
     <>
       {/* cores */}
-      <section className="mil-dark-bg mil-relative mil-o-hidden mil-mb-40">
+      <section className="mil-dark-bg mil-relative mil-o-hidden mil-mb-5">
         <img
           src={Data.bg_image}
           className="mil-bg-img"

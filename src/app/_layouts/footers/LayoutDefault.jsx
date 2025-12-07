@@ -10,15 +10,15 @@ const DefaultFooter = () => {
   return (
     <>
       {/* footer */}
-      <footer className="mil-relative">
-        <img
+      <footer className="mil-relative" style={{ backgroundColor: "#000" }}>
+        {/* <img
           src="/img/photo/VideoCapture_20250927-154719.jpg"
           className="mil-bg-img"
           alt="image"
           style={{ objectPosition: "top" }}
           data-value-1="-25%"
           data-value-2="23%"
-        />
+        /> */}
 
         <div className="mil-overlay" />
         <div className="container mil-p-90-60">
