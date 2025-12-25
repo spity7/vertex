@@ -84,7 +84,12 @@ const DefaultHeader = () => {
 
             {/* right buttons */}
             <div className="mil-top-panel-buttons">
-              <Link href="/" className="mil-button mil-sm">
+              <Link
+                href="https://wa.me/96170063194"
+                className="mil-button mil-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Call Us
               </Link>
 
