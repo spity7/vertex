@@ -4,11 +4,13 @@ import Link from "next/link";
 import AppData from "@data/app.json";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { FaWhatsapp } from "react-icons/fa";
 
 const DefaultHeader = () => {
   const [toggle, setToggle] = useState(false);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
   const asPath = usePathname();
+  const [isMobile, setIsMobile] = useState(false);
 
   const isPathActive = (path) => {
     return (asPath.indexOf(path) !== -1 && path !== "/") || asPath === path;
@@ -23,6 +25,17 @@ const DefaultHeader = () => {
     // close mobile menu
     setToggle(false);
   }, [asPath]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize(); // run on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
@@ -86,10 +99,21 @@ const DefaultHeader = () => {
             <div className="mil-top-panel-buttons">
               <Link
                 href="https://wa.me/96170063194"
-                className="mil-button mil-sm"
+                className="mil-button mil-sm mil-whatsapp-btn"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  marginRight: "10px",
+                  padding: isMobile ? "6px 10px" : "10px 16px",
+                  fontSize: isMobile ? "12px" : "14px",
+                  whiteSpace: "nowrap",
+                  borderRadius: "10px",
+                }}
               >
+                <FaWhatsapp size={24} />
                 Call Us
               </Link>
 

@@ -4,8 +4,8 @@ import Link from "next/link";
 const LatestProjectsSection = ({ projects }) => {
   const projectRows0 = [];
 
-  for (var i = 0; i < 99; i += 3) {
-    projectRows0.push(projects.slice(i, 3 + i));
+  for (var i = 0; i < 99; i += 4) {
+    projectRows0.push(projects.slice(i, 4 + i));
   }
 
   const projectRows = [];
@@ -51,11 +51,7 @@ const LatestProjectsSection = ({ projects }) => {
                   <Link
                     href={`/projects/${item._id}`}
                     key={`projects-item-${key}`}
-                    className={
-                      row.length == 2
-                        ? "mil-portfolio-item mil-square-item mil-up mil-mb-30"
-                        : "mil-portfolio-item mil-long-item mil-up mil-mb-30"
-                    }
+                    className="mil-portfolio-item mil-square-item mil-up mil-mb-30"
                   >
                     <img src={item.thumbnailUrl} alt={item.name} />
                     <div className="mil-project-descr">
