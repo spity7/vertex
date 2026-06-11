@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
-
-$font-1: 'Sora', sans-serif;
-$font-2: 'Caveat', cursive;
+$font-1: var(--font-primary), system-ui, sans-serif;
+$font-2: var(--font-secondary), Georgia, serif;
 
 $dark: rgba(0, 0, 0, 1);
 $light: rgba(255, 255, 255, 1);

@@ -55,7 +55,7 @@ background grid
     }
 
     &.mil-top-space {
-        margin-top: 100px;
+        margin-top: 0;
     }
 
     &.mil-softened {
@@ -116,7 +116,7 @@ banner
     }
 
     & .mil-banner-content {
-        padding: 0 0 30px;
+        padding: 0 0 120px;
         width: 100%;
         position: relative;
     }
@@ -129,21 +129,21 @@ banner
         height: auto;
 
         & .mil-banner-content {
-            padding: 120px 0 0;
+            padding: 30px 0 0;
         }
 
         & .mil-banner-slider-2 {
             & .mil-banner-content {
-                padding: 190px 0 190px;
+                padding: 60px 0 60px;
             }
         }
     }
 
     &.mil-banner-sm {
-        height: 600px;
+        height: 750px;
 
         @media screen and (max-width: 1200px) {
-            height: 300px;
+            height: 450px;
         }
     }
 }
@@ -694,6 +694,7 @@ portfolio
     display: block;
     position: relative;
     overflow: hidden;
+    background-color: $gs-5;
 
     & img {
         position: absolute;
@@ -701,14 +702,13 @@ portfolio
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         object-position: center;
-        transform: scale(1.1);
         transition: $t-md;
     }
 
     &.mil-square-item {
-        padding-bottom: 100%;
+        padding-bottom: 75%; // 4:3 aspect ratio
     }
 
     &.mil-long-item {
@@ -775,10 +775,6 @@ portfolio
     }
 
     &:hover {
-        & img {
-            transform: scale(1);
-        }
-
         & .mil-project-descr {
             opacity: 1;
             transform: translateY(0px);
@@ -800,13 +796,14 @@ portfolio
     display: block;
     position: relative;
     overflow: hidden;
+    background-color: $gs-5;
 
     &.mil-square-item {
-        padding-bottom: 100%;
+        padding-bottom: 75%; // 4:3 aspect ratio
     }
 
     &.mil-long-item {
-        padding-bottom: 65%;
+        padding-bottom: 75%; // 4:3 aspect ratio
     }
 
     &>img {
@@ -815,9 +812,8 @@ portfolio
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         object-position: center;
-        transform: scale(1.1);
         transition: $t-md;
     }
 
@@ -873,10 +869,6 @@ portfolio
     }
 
     &:hover {
-        & img {
-            transform: scale(1);
-        }
-
         & .mil-project-descr {
             transform: translateY(0);
             opacity: 1;
@@ -1334,12 +1326,11 @@ top panel
 ------------------------------------------- */
 .mil-top-panel {
     border-bottom: solid 1px $lt-10;
-    position: fixed;
+    position: relative;
     z-index: 999;
-    top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
+    background-color: $dt-90;
+    backdrop-filter: blur(8px);
     transition: $t-md;
 
     & .mil-top-panel-content {
@@ -1348,6 +1339,10 @@ top panel
         justify-content: space-between;
         align-items: center;
         transition: $t-md;
+
+        @media screen and (max-width: 768px) {
+            height: 70px;
+        }
 
         & .mil-logo {
             display: block;
@@ -1375,6 +1370,53 @@ top panel
 
         @media screen and (max-width: 1200px) {
             margin-right: 15px;
+        }
+    }
+
+    & .mil-instagram-btn {
+        background-color: transparent;
+        color: $light;
+
+        svg {
+            color: #e1306c;
+        }
+
+        span {
+            color: $light;
+        }
+
+        &:hover {
+            filter: none;
+
+            svg {
+                color: #f04f85;
+            }
+        }
+    }
+
+    & .mil-whatsapp-btn {
+        background-color: #00a63d;
+        color: $light;
+
+        &:hover {
+            filter: brightness(110%);
+        }
+
+        @media screen and (max-width: 768px) {
+            background-color: transparent;
+            color: $light;
+
+            svg {
+                color: #25d366;
+            }
+
+            &:hover {
+                filter: none;
+
+                svg {
+                    color: #00a63d;
+                }
+            }
         }
     }
 }

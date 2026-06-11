@@ -4,7 +4,7 @@ import Link from "next/link";
 import AppData from "@data/app.json";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 const DefaultHeader = () => {
   const [toggle, setToggle] = useState(false);
@@ -47,7 +47,7 @@ const DefaultHeader = () => {
               <img
                 src={AppData.header.logo.image}
                 alt={AppData.header.logo.alt}
-                style={{ width: "130px" }}
+                style={{ width: isMobile ? "90px" : "130px" }}
               />
             </Link>
 
@@ -98,23 +98,48 @@ const DefaultHeader = () => {
             {/* right buttons */}
             <div className="mil-top-panel-buttons">
               <Link
-                href="https://wa.me/96170063194"
-                className="mil-button mil-sm mil-whatsapp-btn"
+                href="https://www.instagram.com/vertex.engineering.co?igsh=MTE3azQ5dm5jaWZrZQ=="
+                className="mil-button mil-sm mil-instagram-btn"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
                   gap: "8px",
-                  marginRight: "10px",
-                  padding: isMobile ? "6px 10px" : "10px 16px",
+                  justifyContent: "center",
+                  marginRight: isMobile ? "0" : "10px",
+                  padding: isMobile ? "6px 5px" : "10px 12px",
+                  fontSize: isMobile ? "12px" : "14px",
+                  borderRadius: "10px",
+                }}
+              >
+                <FaInstagram size={28} />
+                <span className={isMobile ? "d-none" : "d-block"}>
+                  Follow Us
+                </span>
+              </Link>
+
+              <Link
+                href="https://wa.me/96170063194"
+                className="mil-button mil-sm mil-whatsapp-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  justifyContent: "center",
+                  marginRight: isMobile ? "6px" : "10px",
+                  padding: isMobile ? "6px 5px" : "10px 16px",
                   fontSize: isMobile ? "12px" : "14px",
                   whiteSpace: "nowrap",
                   borderRadius: "10px",
                 }}
               >
-                <FaWhatsapp size={24} />
-                Call Us
+                <FaWhatsapp size={28} />
+                <span className={isMobile ? "d-none" : "d-block"}>Call Us</span>
               </Link>
 
               <div

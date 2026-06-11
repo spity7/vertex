@@ -27,7 +27,7 @@ const HeroOne = () => {
         <div className="container">
           <div className="mil-background-grid mil-top-space" />
           <div className="mil-banner-content">
-            <div className="row align-items-end">
+            <div className="row align-items-start">
               <div className="col-xl-7">
                 <div className="mil-mb-10">
                   <span className="mil-suptitle mil-light mil-upper mil-mb-20">

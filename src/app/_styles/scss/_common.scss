@@ -20,6 +20,9 @@ body {
     font-weight: 400;
     color: $dt-70;
     line-height: 170%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     /*overscroll-behavior: none;
     scroll-behavior: smooth;*/
 
@@ -500,7 +503,7 @@ button
 
     &.mil-sm {
         padding: 0 40px;
-        height: 60px;
+        height: 50px;
     }
 
     &:hover {
