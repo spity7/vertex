@@ -104,20 +104,11 @@ const DefaultHeader = () => {
                 rel="noopener noreferrer"
                 aria-label="Instagram"
                 style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  justifyContent: "center",
                   marginRight: isMobile ? "0" : "10px",
-                  padding: isMobile ? "6px 5px" : "10px 12px",
-                  fontSize: isMobile ? "12px" : "14px",
-                  borderRadius: "10px",
+                  padding: isMobile ? "6px 5px" : "10px 8px",
                 }}
               >
                 <FaInstagram size={28} />
-                <span className={isMobile ? "d-none" : "d-block"}>
-                  Follow Us
-                </span>
               </Link>
 
               <Link
@@ -127,19 +118,11 @@ const DefaultHeader = () => {
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
                 style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  justifyContent: "center",
-                  marginRight: isMobile ? "6px" : "10px",
-                  padding: isMobile ? "6px 5px" : "10px 16px",
-                  fontSize: isMobile ? "12px" : "14px",
-                  whiteSpace: "nowrap",
-                  borderRadius: "10px",
+                  marginRight: isMobile ? "20px" : "10px",
+                  padding: isMobile ? "6px 5px" : "10px 0px",
                 }}
               >
                 <FaWhatsapp size={28} />
-                <span className={isMobile ? "d-none" : "d-block"}>Call Us</span>
               </Link>
 
               <div

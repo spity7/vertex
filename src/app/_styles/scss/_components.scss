@@ -1373,15 +1373,12 @@ top panel
         }
     }
 
-    & .mil-instagram-btn {
+    & .mil-instagram-btn,
+    & .mil-whatsapp-btn {
         background-color: transparent;
         color: $light;
 
         svg {
-            color: #e1306c;
-        }
-
-        span {
             color: $light;
         }
 
@@ -1389,33 +1386,7 @@ top panel
             filter: none;
 
             svg {
-                color: #f04f85;
-            }
-        }
-    }
-
-    & .mil-whatsapp-btn {
-        background-color: #00a63d;
-        color: $light;
-
-        &:hover {
-            filter: brightness(110%);
-        }
-
-        @media screen and (max-width: 768px) {
-            background-color: transparent;
-            color: $light;
-
-            svg {
-                color: #25d366;
-            }
-
-            &:hover {
-                filter: none;
-
-                svg {
-                    color: #00a63d;
-                }
+                opacity: 0.8;
             }
         }
     }
@@ -1643,12 +1614,6 @@ top panel
                 }
             }
         }
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .mil-top-panel-buttons .mil-button {
-        display: none;
     }
 }
 
