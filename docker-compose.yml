@@ -1,0 +1,19 @@
+# Prerequisites:
+#   1. cp .env.example .env  (fill EMAIL_USER/PASS for contact form)
+#   2. docker compose up --build
+#
+# For production: swap commented/uncommented lines in .env
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+    ports:
+      - "127.0.0.1:3004:3004"
+    env_file:
+      - .env
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true

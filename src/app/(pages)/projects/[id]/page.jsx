@@ -1,10 +1,11 @@
 import React, { Suspense } from "react";
 import PageBannerTwo from "@components/PageBannerTwo";
+import { API_BASE_URL } from "@/config/api";
 
 export const dynamic = "force-dynamic"; // ensures it always fetches fresh data
 
 async function getProject(id) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/projects/${id}`, {
+  const res = await fetch(`${API_BASE_URL}/projects/${id}`, {
     cache: "no-store", // disable caching for live data
   });
 

@@ -12,6 +12,7 @@ import LatestProjectsSection from "@components/sections/LatestProjects";
 import HowWeWorkSection from "@components/sections/HowWeWork";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
+import { API_BASE_URL } from "@/config/api";
 
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), {
   ssr: false,
@@ -26,7 +27,7 @@ export const metadata = {
 };
 
 async function Home1() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/projects`, {
+  const res = await fetch(`${API_BASE_URL}/projects`, {
     cache: "no-store",
   });
   const { projects } = await res.json();

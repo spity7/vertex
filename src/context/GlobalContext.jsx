@@ -2,9 +2,9 @@
 
 import { createContext, useContext, useMemo } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "@/config/api";
 
 axios.defaults.withCredentials = true;
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // Create the context
 const GlobalContext = createContext();

@@ -10,6 +10,7 @@ const ProjectsMasonry = dynamic(() => import("@components/ProjectsMasonry"), {
 });
 
 import { getSortedProjectsData } from "@library/projects";
+import { API_BASE_URL } from "@/config/api";
 
 export const metadata = {
   title: {
@@ -19,7 +20,7 @@ export const metadata = {
 };
 
 async function Projects() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/projects`, {
+  const res = await fetch(`${API_BASE_URL}/projects`, {
     cache: "no-store",
   });
   const { projects } = await res.json();
